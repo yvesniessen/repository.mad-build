@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="30000">
+        <setting label="30001" type="lsep"/>
+        <setting label="30002" id="players_update_url" type="text" default="http://bit.ly/2r5yjwT" visible="false"/>
+        <setting label="30003" type="action" subsetting="true" option="close" enable="!eq(-1,)" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/update_players)" visible="false"/>
+        <setting label="30004" option="close" type="action" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/setup/total)"/>
+        <setting label="30005" type="enum" id="movies_default_action" lvalues="30053|30054" default="1"/>
+        <setting label="30006" type="enum" id="tvshows_default_action" lvalues="30053|30055|30056" default="2"/>
+        <setting label="30007" type="action" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/defaultplayer)"/>
+        <setting label="30008" type="text" subsetting="true" id="moviesdefault" enable="false" default="Kein Standard Player"/>
+        <setting label="30009" type="text" subsetting="true" id="tvshowsdefault" enable="false" default="Kein Standard Player"/>
+        <setting label="30010" id="total_setup_done" type="bool" default="false" visible="false"/>
+        <setting label="30011" id="include_specials" type="bool" default="false"/>
+        <setting label="30012" id="countenabled" type="bool" default="true"/>
+        <setting label="30013" id="flatten.tvshows" type="enum" lvalues="30057|30058|30059" default="1"/>
+        <setting label="30014" id="enablefanart" type="bool" default="true" />
+        <setting label="30063" type="lsep"/>
+		<setting label="30064" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" id="LangID" default="de"/>
+        <setting label="30022" type="lsep"/>
+        <setting label="30023" id="trakt_items_per_page" type="slider" range="10,1,100" option="int" default="10"/>
+        <setting label="30024" id="random_pages" type="number" default="3"/>
+        <setting label="30025" type="action" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/clear_cache)"/>
+    </category>
+    <category label="30026">
+        <setting label="30027" type="lsep"/>
+        <setting label="30028" type="action" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/authenticate_trakt)"/>
+        <setting label="30029" option="close" type="action" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/cleartrakt)"/>
+        <setting label="30030" id="library_sync_collection" type="bool" default="false"/>
+        <setting label="30035" type="lsep"/>
+        <setting label="30036" id="trakt_api_client_id" type="text" default=""/>
+        <setting label="30037" id="trakt_api_client_secret" type="text" default=""/>        
+        <setting label="trakt access token" id="trakt_access_token" type="text" default="" visible="false"/>
+        <setting label="trakt refresh token" id="trakt_refresh_token" type="text" default="" visible="false"/>
+        <setting label="trakt refresh token" id="trakt_expires_at" type="text" default="" visible="false"/>
+    </category>
+    <category label="30034">
+        <setting label="30038" type="lsep"/>
+        <setting label="30039" id="tmdb_api" type="text" default=""/>
+        <setting label="30040" type="lsep"/>
+        <setting label="30041" id="tvdb_api" type="text" default=""/>
+        <setting label="30042" type="lsep"/>
+        <setting label="30043" id="fanart.apikey" type="text" default=""/>
+    </category>
+    <category label="30050">
+		<setting label="30015" type="lsep"/>
+        <setting label="30016" id="library_updates" type="bool" default="true"/>
+        <setting label="30017" type="action" subsetting="true" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/update_library_from_settings)" visible="eq(-1,true)"/>
+        <setting label="30018" id="movies_library_folder" type="folder" default="special://profile/addon_data/plugin.video.wrp-metaplayer/Movies/"/>
+        <setting label="30019" id="tv_library_folder" type="folder" default="special://profile/addon_data/plugin.video.wrp-metaplayer/TVShows/"/>
+        <setting label="30020" id="movies_batch_add_file_path" type="text" default="special://profile/addon_data/plugin.video.wrp-metaplayer/movies_to_add.txt" visible="false"/>
+        <setting label="30021" id="tv_batch_add_file_path" type="text" default="special://profile/addon_data/plugin.video.wrp-metaplayer/shows_to_add.txt" visible="false"/>   
+		<setting label="30051" type="lsep"/>
+        <setting label="30052" type="action" subsetting="true" option="close" action="RunPlugin(plugin://plugin.video.wrp-metaplayer/update_players)"/>
+        <setting label="30060" type="lsep"/>
+        <setting default="true" id="githubUpdateWRPmeta" label="30061" type="bool" />
+        <setting default="true" id="githubUpdateWRPinfo" label="30062" type="bool" />    
+    </category>
+</settings>

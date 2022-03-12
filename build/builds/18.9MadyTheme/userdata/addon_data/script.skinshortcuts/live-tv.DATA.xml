@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>19023</defaultID>
+		<label>Free TV</label>
+		<label2>Live-TV</label2>
+		<icon>special://skin/extras/icons/tv.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ttg</defaultID>
+		<label>TV Guide</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tvguide.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>22020</defaultID>
+		<label>22020</label>
+		<label2>Live-TV</label2>
+		<icon>special://skin/extras/icons/tvguide.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVGuide)</action>
+	</shortcut>
+</shortcuts>

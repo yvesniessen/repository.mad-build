@@ -1,0 +1,32 @@
+<sources>
+	<programs>
+		<default pathversion="1" />
+	</programs>
+	<video>
+		<default pathversion="1" />
+		<source>
+			<name>WRP-MetaPlayer Filme</name>
+			<path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/Movies/</path>
+			<thumbnail pathversion="1">special://home/addons\plugin.video.wrp-metaplayer\resources\media\movies.png</thumbnail>
+			<allowsharing>true</allowsharing>
+		</source>
+		<source>
+			<name>WRP-MetaPlayer TV-Serien</name>
+			<path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/TVShows/</path>
+			<thumbnail pathversion="1">special://home/addons\plugin.video.wrp-metaplayer\resources\media\tv.png</thumbnail>
+			<allowsharing>true</allowsharing>
+		</source>
+	</video>
+	<music>
+		<default pathversion="1" />
+	</music>
+	<pictures>
+		<default pathversion="1" />
+	</pictures>
+	<files>
+		<default pathversion="1" />
+	</files>
+	<games>
+		<default pathversion="1" />
+	</games>
+</sources>

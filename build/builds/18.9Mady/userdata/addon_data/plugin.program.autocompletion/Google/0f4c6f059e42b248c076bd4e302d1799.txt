@@ -1,0 +1,1 @@
+["18.6", ["18.6.18", "18.650", "18.6.18 piano", "18.6.18 billie eilish piano", "18.6.18 piano tutorial", "18.6.18 billie eilish karaoke", "18.6.18 billie eilish lyrics", "18.6.18 billie eilish 1 hour", "18.6.18 karaoke", "18.600"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]

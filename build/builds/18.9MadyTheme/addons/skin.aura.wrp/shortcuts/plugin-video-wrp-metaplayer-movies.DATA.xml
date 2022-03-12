@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Favoriten</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/favourites.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Filme&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CFilme&amp;image=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw300%2FmIz6FQabZrrzsOwYFpUpreijpvx.jpg&amp;fanart=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2F3gZ2iiqCqwVg7sKm2KUspzxfelQ.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/12/1/</defaultID>
+		<label>Abenteuer</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/12/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/28/1/</defaultID>
+		<label>Action</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/28/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/10751/1/</defaultID>
+		<label>Familie</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/27/1/</defaultID>
+		<label>Horror</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/27/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/35/1/</defaultID>
+		<label>Komödie</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/35/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wrp-metaplayer/movies/genre/878/1/</defaultID>
+		<label>Science Fiction</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/878/1/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>XXX</label>
+		<label2>Programm</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/top100.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.super.favourites/?label=XXX&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CXXX&amp;image=special%3A%2F%2Fhome%2Faddons%2Frepository.xbmcadult%2Ficon.png&amp;fanart=C%3A%5CProgram+Files%5CKodi%5Cportable_data%5Caddons%5Cplugin.program.super.favourites%5Cfanart.jpg&amp;content_type=",return)</action>
+	</shortcut>
+</shortcuts>

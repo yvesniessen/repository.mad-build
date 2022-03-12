@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.VevoTube</defaultID>
+		<label>VevoTube</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/vevo.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.radio_de</defaultID>
+		<label>Radio</label>
+		<label2>Musik Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/radio.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.YouMusic</defaultID>
+		<label>You Music</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tvguide.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Spotify</label>
+		<label2>Musik Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/spotify.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.housemixes</defaultID>
+		<label>House Mixes</label>
+		<label2>Musik Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/cd.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.spotitube</defaultID>
+		<label>Youtube Music</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/youtube.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</action>
+	</shortcut>
+</shortcuts>

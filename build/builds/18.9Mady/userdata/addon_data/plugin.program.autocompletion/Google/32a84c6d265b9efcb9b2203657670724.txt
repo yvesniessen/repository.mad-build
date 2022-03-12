@@ -1,0 +1,1 @@
+["18", ["187", "18 karat", "187 allstars", "1812 overture", "187 strassenbande", "187 allstars 2013", "187 live", "18 dakika", "187 10 jahre", "1860 m\u00fcnchen"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
