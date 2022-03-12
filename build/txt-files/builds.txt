@@ -4,9 +4,9 @@
 
 name="Mady Style"
 version="1.0"
-url="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/18.6WRPflix.zip"
+url="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.6WRPflix.zip"
 minor="http://"
-gui="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/18.6WRPflix_guisettings.zip"
+gui="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.6WRPflix_guisettings.zip"
 kodi="18.9"
 theme="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/txt-files/theme.txt"
 icon="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/resources/screenshot.png"
