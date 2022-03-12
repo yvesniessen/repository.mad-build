@@ -1,1 +1,0 @@
-["1", ["1917", "187", "110", "123 go", "16 shots", "100", "18 karat", "100k cash", "1million dance studio", "100 sekunden physik"], [], {"google:suggesttype": ["QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY", "QUERY"]}]
