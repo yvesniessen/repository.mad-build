@@ -15,6 +15,9 @@ preview="https://youtu.be/VNqiZdC9TTg"
 adult="no"
 info="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.txt"
 description=" 
+v1.1: 
+ - added tvheadend plugin & settings
+v1.0:
  - 18.9 Leia Image fuer Android Systeme, PC oder Xbox One
  - Aura WRP Mod Theme"
 
