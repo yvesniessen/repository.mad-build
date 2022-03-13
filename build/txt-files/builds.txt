@@ -3,7 +3,7 @@
 ############################ KODI 18 BUILDS ############################
 
 name="18.9Mady"
-version="1.4"
+version="1.5"
 url="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.zip"
 minor="http://"
 gui="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady_guisettings.zip"
@@ -15,9 +15,10 @@ preview="https://youtu.be/VNqiZdC9TTg"
 adult="no"
 info="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.txt"
 description="
+v1.5: 
+ - changed highlight color
 v1.4: 
  - changed top logo
- - removed intro 
 v1.3: 
  - first productive version
 v1.2: 
