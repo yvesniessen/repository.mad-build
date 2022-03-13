@@ -15,6 +15,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/tvguide.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID>22020</defaultID>

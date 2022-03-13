@@ -15,6 +15,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/years.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID>plugin.video.filmstarts</defaultID>
@@ -55,6 +56,7 @@
 		<icon>special://skin/extras/icons/addons.png</icon>
 		<thumb>special://skin/extras/icons/soccer.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID>programs</defaultID>
@@ -63,5 +65,6 @@
 		<icon>special://skin/extras/icons/addons.png</icon>
 		<thumb>special://skin/extras/icons/basketball.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 </shortcuts>

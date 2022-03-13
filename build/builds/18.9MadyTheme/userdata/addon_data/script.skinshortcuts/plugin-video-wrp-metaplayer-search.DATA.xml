@@ -15,6 +15,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/exodus.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID />
@@ -23,6 +24,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/lastship.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID />
@@ -31,6 +33,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/netflix.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID />
