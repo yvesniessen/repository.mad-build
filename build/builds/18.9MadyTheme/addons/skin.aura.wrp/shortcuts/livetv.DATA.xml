@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>19023</defaultID>
+		<label>Free TV</label>
+		<label2>Live-TV</label2>
+		<icon>special://skin/extras/icons/tv.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Robin Hood TV</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/antenna-on.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.RobinHoodTv/?url=http%3A%2F%2Fkodibalkan.com%2FMenuWorld%2FGERMANY%2Fmenu.xml&amp;mode=1&amp;name=%5BB%5D+%5BI%5D+%5BCOLOR+black%5DDE%5BB%5D+%5BI%5D+%5BCOLOR+red%5D-GERMANY+LIVE+%5BB%5D+%5BI%5D+%5BCOLOR+gold%5DTV%5B%2FB%5D+%5B%2FI%5D+%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fkodibalkan.com%2Frepo%2Fprogrami%2Fplugin.video.RobinHoodTv%2Ffanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Pavoo TV</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tv.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fpavootv.com%2FPAVOOTV%2Fgermany%2F1.xml&amp;mode=1&amp;name=%5BB%5D+%5BI%5D+%5BCOLOR+green%5DDE-GERMANY+LIVE+TV+%5BB%5D+%5BI%5D+%5BCOLOR+lime%5D+1%5B%2FB%5D+%5B%2FI%5D+%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2Flivetvfanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Pavoo TV</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/film.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fpavootv.com%2FPAVOOTV%2Fgermany%2F2.xml&amp;mode=1&amp;name=%5BB%5D+%5BI%5D+%5BCOLOR+green%5DDE-GERMANY+LIVE+TV+%5BB%5D+%5BI%5D+%5BCOLOR+lime%5D+2%5B%2FB%5D+%5B%2FI%5D+%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2Flivetvfanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Swiftstreamz</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/livetv.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2FPlaylist-Germany.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5DGermany+6+%28+%5BCOLOR+lime%5DSwiftstreamz%5B%2FCOLOR%5D+%29%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2Flivetvfanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Rob TV - Live</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tv.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=plugin%3A%2F%2Fplugin.video.robtv%2F%3Furl%3Dhttps%253A%252F%252Ft1p.de%252Fi5bf%26mode%3D2%26name%3D%255BB%255D%255BCOLOR%2Bgreen%255D%253D%253E%2B%255BCOLOR%2Bskyblue%255DRob%2BTV%2B-%2BLive%255B%252FB%255D%255B%252FCOLOR%255D%26fanart%3Dhttps%253A%252F%252Fghost-repo.de%252FGhost_Portal%252FRobTV%252Ficon.png&amp;mode=53&amp;name=%5BB%5D%5BCOLOR+green%5D%3D%3E+%5BCOLOR+skyblue%5DRob+TV+-+Live%5B%2FB%5D%5B%2FCOLOR%5D&amp;fanart=image%3A%2F%2Fhttps%253a%252f%252fghost-repo.de%252fGhost_Portal%252fRobTV%252ficon.png%2F",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Live Portal</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/eye.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2Fliveportal%2F___ghostsiptv.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Live+Portal+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2Fsky%2Flivetvfanart.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ttg</defaultID>
+		<label>TV Guide</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/tvguide.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>22020</defaultID>
+		<label>22020</label>
+		<label2>Live-TV</label2>
+		<icon>special://skin/extras/icons/tvguide.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVGuide)</action>
+	</shortcut>
+</shortcuts>

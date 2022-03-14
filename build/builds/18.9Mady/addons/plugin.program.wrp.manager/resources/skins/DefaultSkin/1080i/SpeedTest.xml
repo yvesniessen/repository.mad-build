@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <coordinates>
+        <left>0</left>
+        <top>0</top>
+    </coordinates>
+    <controls>
+        <control type="group">
+            <control type="image">
+                <description>Background Image</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>1920</width>
+                <height>1080</height>
+                <texture border="2">SpeedTest/bg_screen.jpg</texture>
+            </control>
+			<control type="image">
+                <description>Menuslider</description>
+                <posx>540</posx>
+                <posy>50</posy>
+                <width>840</width>
+                <height>100</height>
+                <texture border="2">SpeedTest/slider.png</texture>
+            </control>
+            <control type="image" id="101">
+                <description>Speed Test Resultat</description>
+                <posx>560</posx>
+                <posy>180</posy>
+                <width>800</width>
+                <height>450</height>
+            </control>
+			<control type="image">
+                <description>Info</description>
+                <posx>252</posx>
+                <posy>660</posy>
+                <width>1416</width>
+                <height>379</height>
+                <texture border="2">SpeedTest/info.png</texture>
+            </control>
+        </control>
+        <control type="group" id="9001">
+            <control type="button" id="201">
+                <left>1450</left>
+                <top>890</top>
+                <width>400</width>
+                <height>175</height>
+				<texture border="40">SpeedTest/btn_start_glow_active.png</texture>
+                <font>font13</font>
+                <textcolor>FFF0F0F0</textcolor>
+                <label>[B]Schliessen[/B]</label>
+                <align>center</align>
+                <aligny>center</aligny>
+                <texturefocus border="40">SpeedTest/btn_start_glow_active.png</texturefocus>
+                <texturenofocus border="40">SpeedTest/btn_start_bg.png</texturenofocus>
+            </control>
+        </control>
+    </controls>
+</window>

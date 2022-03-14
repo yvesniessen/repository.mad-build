@@ -1,0 +1,2 @@
+= Versions: ArtworkBeef/0.28.2~adev Kodi/18.9 (Windows NT 10.0.22000; Win64; x64) App_Bitness/64 Version/18.9-(18.9.0)-Git:20201023-0655c2c718
+

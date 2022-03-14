@@ -1,0 +1,5 @@
+#LWP-Cookies-2.0
+Set-Cookie3: __ddg1=nnDdJtCn3pE2R4oGYhzF; path="/"; domain=".18.20"; path_spec; domain_dot; expires="2023-03-12 22:02:42Z"; HttpOnly=None; version=0
+Set-Cookie3: __ddg1=mujmanIXSV49a94XfLL1; path="/"; domain=".voe.sx"; path_spec; domain_dot; expires="2023-03-12 22:02:49Z"; HttpOnly=None; version=0
+Set-Cookie3: PHPSESSID=taij3fmda5lflmcf5q8t7s3s19; path="/"; domain="190.115.18.20"; path_spec; discard; version=0
+Set-Cookie3: rememberLogin=UW0cPCnC81MueIDFHcyCCKq9Sih7IUyBo1gXmKc36r5CRPBjW0R7luntXoFf6VhNe13TcwnPfWR8MWzTCN8qr8Vi5hiiQ5LbhyPUks2WkK6dL0TedVShaqXV; path="/"; domain="190.115.18.20"; path_spec; expires="2024-08-28 22:02:48Z"; version=0

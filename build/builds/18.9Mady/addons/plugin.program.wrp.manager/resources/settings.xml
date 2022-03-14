@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Build Einstellungen">
+		<setting type="lsep" label="Aktueller WRP Build Status"/>
+		<setting id="buildname" type="text" label="Installierter Build: " enable="false" default=""/>
+		<setting id="buildversion" type="text" label="Installierte Version: " enable="false" default=""/>
+		<setting id="buildtheme" type="text" label="Aktuelles Theme: " enable="false" default=""/>
+		<setting id="latestversion" type="text" label="Letzte Version: " enable="false" default=""/>
+		<setting id="lastbuildcheck" type="text" label="Überprüfen Sie ob ein Build-Update vorliegt: " enable="false" default=""/>
+		<setting id="disableupdate" type="bool" label="Deaktivieren Sie die Update-Benachrichtigung" default="false"/>
+		<setting id="installmethod" type="enum" label="Nach der Installation des Builds durchführen" values="Immer nachfragen|Profil neuladen|Kodi beenden" default="2"/>
+		<setting type="lsep" label="Welche Kodi WRP Builds sollen angezeigt werden"/>
+		<setting id="show19" type="bool" label="Zeige Kodi(v19.0) Matrix Builds" default="true"/>
+		<setting id="show18" type="bool" label="Zeige Kodi(v18.0) Leia Builds" default="true"/>
+		<setting id="show17" type="bool" label="Zeige Kodi(v17.0) Krypton Builds" default="false"/>
+		<setting id="show16" type="bool" label="Zeige Kodi(v16.0) Jarvis Builds" default="false"/>
+		<setting id="show15" type="bool" label="Zeige Kodi(v15.0) Isengard und andere Builds" default="false"/>
+		<setting id="seperate" type="bool" label="Kodiversion unabhängig" default="false"/>
+        
+        <!-- Hidden Settings -->
+		<setting id="installed" type="bool" label="Build Installation" visible="false" default="false" />
+		<setting id="extract" type="text" label="Entpacke Build %" visible="false" default="100" />
+		<setting id="errors" type="text" label="Entpackungsfehler" visible="false" default="" />
+		<setting id="defaultskin" type="text" label="Standard Skin: " enable="false" default="" visible="false"/>
+		<setting id="defaultskinname" type="text" label="Standard Skin Name: " enable="false" default="" visible="false"/>
+		<setting id="defaultskinignore" type="bool" label="Ignore default skin check:" enable="false" default="false" visible="false"/>
+		<setting id="default.enablerssfeeds" type="text" label="Default lookandfeel.enablerssfeeds:" enable="false" default="" visible="false"/>
+		<setting id="default.font" type="text" label="Default lookandfeel.font:" enable="false" default="" visible="false"/>
+		<setting id="default.rssedit" type="text" label="Default lookandfeel.rssedit:" enable="false" default="" visible="false"/>
+		<setting id="default.skincolors" type="text" label="Default lookandfeel.skincolors:" enable="false" default="" visible="false"/>
+		<setting id="default.skintheme" type="text" label="Default lookandfeel.skintheme:" enable="false" default="" visible="false"/>
+		<setting id="default.skinzoom" type="text" label="Default lookandfeel.skinzoom:" enable="false" default="" visible="false"/>
+		<setting id="default.soundskin" type="text" label="Default lookandfeel.soundskin:" enable="false" default="" visible="false"/>
+		<setting id="default.startupwindow" type="text" label="Default lookandfeel.startupwindow:" enable="false" default="" visible="false"/>
+		<setting id="default.stereostrength" type="text" label="Default lookandfeel.stereostrength:" enable="false" default="" visible="false"/>
+		<setting id="default.addonupdate" type="text" label="Default general.addonupdate:" enable="false" default="" visible="false"/>
+		<setting id="pvrclient" type="text" label="Aktiviere PVR:" enable="false" default="" visible="false"/>
+	</category>
+
+	<category label="Wartungseinstellungen">
+		<setting type="lsep" label="Hochladen der Log Datei "/>
+		<!-- <setting id="email" type="text" label="E-Mail Addresse" /> -->
+		<setting id="oldlog" type="bool" label="Inklusive der Kodi.Old.Log Datei" default="false"/>
+		<setting id="wizlog" type="bool" label="Inklusive der Wizard Log Datei" default="false"/>
+		<setting id="crashlog" type="bool" label="Inklusive der Kodi Crash Logs" default="false"/>
+		<setting type="lsep" label="Einstellungen Wartungsmenü "/>
+		<setting id="showmaint" type="bool" label="Zeige alle Wartungseinstellungen an" default="false"/>
+		<setting id="path" type="folder" label="Wähle Backup Speicherort" default=""/>
+		<!--<setting id="rompath" type="folder" label="Choose Roms Extract Location Location" default=""/>-->
+		<setting type="lsep" label="Automatische Bereinigung beim Start"/>
+		<setting id="autoclean" type="bool" label="Aktiviere autom. Bereinigung" default="true"/>
+		<setting id="clearcache" type="bool" label="Entferne Cache beim Kodistart" default="true" enable="!eq(-1,false)"/>
+		<setting id="clearpackages" type="bool" label="Entferne heruntergeladene Pakete beim Kodistart" default="true" enable="!eq(-2,false)"/>
+		<setting id="clearthumbs" type="bool" label="Entferne Miniaturansichten beim Kodistart" default="true" enable="!eq(-3,false)"/>
+		<setting id="autocleanfeq" type="enum" label="Bereinigung beim Start durchführen?" values="Immer|Täglich|Alle 3 Tage|Wöchentlich" default="0" enable="!eq(-4,false)"/>
+		<setting id="nextautocleanup" type="text" label="Nächste automatische Bereinigung: " enable="false" visible="false" default=""/>
+		<setting type="lsep" label="Entferne Video Cache"/>
+		<setting id="includevideo" type="bool" label="Inklusive Video Addons aus dem Cache " default="true"/>
+		<setting id="includeall" type="bool" label="Inklusive allen Addons: " default="true" enable="!eq(-1,false)"/>
+		<setting id="includecovenant" type="bool" label="Inklusive Covenant DB: " default="true" enable="eq(-1,false)" visible="System.HasAddon(plugin.video.covenant)"/>
+		<setting id="includeexodus" type="bool" label="Inklusive Exodus DB: " default="true" enable="eq(-2,false)" visible="System.HasAddon(plugin.video.exodus)"/>
+		<setting id="includeflixnet" type="bool" label="Inklusive Flixnet DB: " default="true" enable="eq(-3,false)" visible="System.HasAddon(plugin.video.flixnet)"/>
+		<setting id="includeincursion" type="bool" label="Inklusive Incursion DB: " default="true" enable="eq(-4,false)" visible="System.HasAddon(plugin.video.incursion)"/>
+		<setting id="includegenesisreborn" type="bool" label="Inklusive Genesis Reborn DB: " default="true" enable="eq(-5,false)" visible="System.HasAddon(plugin.video.genesisreborn)"/>
+		<setting id="includelastship" type="bool" label="Inklusive Lastship DB: " default="true" enable="eq(-6,false)" visible="System.HasAddon(plugin.video.lastship)"/>
+		<setting id="includeexodusredux" type="bool" label="Inklusive Exodus Redux DB: " default="true" enable="eq(-7,false)" visible="System.HasAddon(plugin.video.exodusredux)"/>
+		<setting id="includegaia" type="bool" label="Inklusive Gaia Cache DB: " default="true" enable="eq(-8,false)" visible="System.HasAddon(plugin.video.gaia)"/>
+        <setting id="includeovereasy" type="bool" label="Inklusive Overeasy Cache DB: " default="true" enable="eq(-9,false)" visible="System.HasAddon(plugin.video.overeasy)"/>
+		<setting id="includeplacenta" type="bool" label="Inklusive Placenta DB: " default="true" enable="eq(-10,false)" visible="System.HasAddon(plugin.video.placenta)"/>
+		<setting id="includescrubs" type="bool" label="Inklusive Scrubs v2 Cache DB: " default="true" enable="eq(-11,false)" visible="System.HasAddon(plugin.video.scrubsv2)"/>
+		<setting id="includeseren" type="bool" label="Inklusive Seren Cache DB: " default="true" enable="eq(-12,false)" visible="System.HasAddon(plugin.video.seren)"/>
+        <setting id="includevenom" type="bool" label="Inklusive Venom Cache DB: " default="true" enable="eq(-13,false)" visible="System.HasAddon(plugin.video.venom)"/>
+		<setting id="includeyoda" type="bool" label="Inklusive Yoda Cache DB: " default="true" enable="eq(-14,false)" visible="System.HasAddon(plugin.video.yoda)"/>
+
+		<!-- Default settings for Save Data entries -->
+		<setting id="covenant" type="text" default="" visible="false"/>
+		<setting id="exodus" type="text" default="" visible="false"/>
+		<setting id="flixnet" type="text" default="" visible="false"/>
+		<setting id="incursion" type="text" default="" visible="false"/>
+		<setting id="genesisreborn" type="text" default="" visible="false"/>
+		<setting id="lastship" type="text" default="" visible="false"/>
+		<setting id="exodusredux" type="text" default="" visible="false"/>
+		<setting id="gaia" type="text" default="" visible="false"/>
+		<setting id="wrp-metaplayer" type="text" default="" visible="false"/>
+		<setting id="overeasy" type="text" default="" visible="false"/>
+		<setting id="placenta" type="text" default="" visible="false"/>
+		<setting id="premiumizer" type="text" default="" visible="false"/>
+		<setting id="realizer" type="text" default="" visible="false"/>
+		<setting id="scrubs" type="text" default="" visible="false"/>
+		<setting id="seren" type="text" default="" visible="false"/>
+		<setting id="trakt" type="text" default="" visible="false"/>
+		<setting id="venom" type="text" default="" visible="false"/>
+		<setting id="yoda" type="text" default="" visible="false"/>
+
+		<setting id="gaiard" type="text" default="" visible="false"/>
+		<setting id="gaiapm" type="text" default="" visible="false"/>
+		<setting id="pmzer" type="text" default="" visible="false"/>
+		<setting id="serenrd" type="text" default="" visible="false"/>
+		<setting id="serenpm" type="text" default="" visible="false"/>
+		<setting id="rurlrd" type="text" default="" visible="false"/>
+		<setting id="rurlpm" type="text" default="" visible="false"/>
+		<setting id="urlrd" type="text" default="" visible="false"/>
+		<setting id="urlpm" type="text" default="" visible="false"/>
+
+		<setting id="fanart-covenant" type="text" default="" visible="false"/>
+		<setting id="fanart-exodus" type="text" default="" visible="false"/>
+		<setting id="fanart-flixnet" type="text" default="" visible="false"/>
+		<setting id="fanart-incursion" type="text" default="" visible="false"/>
+		<setting id="fanart-genesisreborn" type="text" default="" visible="false"/>
+		<setting id="fanart-lastship" type="text" default="" visible="false"/>
+		<setting id="fanart-exodusredux" type="text" default="" visible="false"/>
+		<setting id="fanart-gaia" type="text" default="" visible="false"/>
+		<setting id="fanart-overeasy" type="text" default="" visible="false"/>
+		<setting id="fanart-metadatautils" type="text" default="" visible="false"/>
+		<setting id="fanart-premiumizer" type="text" default="" visible="false"/>
+		<setting id="fanart-realizer" type="text" default="" visible="false"/>
+		<setting id="fanart-scrubs" type="text" default="" visible="false"/>
+		<setting id="fanart-venom" type="text" default="" visible="false"/>
+		<setting id="fanart-yoda" type="text" default="" visible="false"/>
+		
+		<setting id="imdb-covenant" type="text" default="" visible="false"/>
+		<setting id="imdb-exodus" type="text" default="" visible="false"/>
+		<setting id="imdb-flixnet" type="text" default="" visible="false"/>
+		<setting id="imdb-incursion" type="text" default="" visible="false"/>
+		<setting id="imdb-genesisreborn" type="text" default="" visible="false"/>
+		<setting id="imdb-lastship" type="text" default="" visible="false"/>
+		<setting id="imdb-exodusredux" type="text" default="" visible="false"/>
+		<setting id="imdb-gaia" type="text" default="" visible="false"/>
+		<setting id="imdb-overeasy" type="text" default="" visible="false"/>
+		<setting id="imdb-placenta" type="text" default="" visible="false"/>
+		<setting id="imdb-premiumizer" type="text" default="" visible="false"/>
+		<setting id="imdb-realizer" type="text" default="" visible="false"/>
+		<setting id="imdb-scrubs" type="text" default="" visible="false"/>
+		<setting id="imdb-venom" type="text" default="" visible="false"/>
+		<setting id="imdb-yoda" type="text" default="" visible="false"/>
+		<setting id="kitsu-wonderfulsubs" type="text" default="" visible="false"/>
+		<setting id="login-iagl" type="text" default="" visible="false"/>
+		<setting id="login-netflix" type="text" default="" visible="false"/>
+		<setting id="mal-wonderfulsubs" type="text" default="" visible="false"/>
+		<setting id="omdb-metadatautils" type="text" default="" visible="false"/>
+		<setting id="omdb-metahandler" type="text" default="" visible="false"/>
+		<setting id="login-opensubtitles" type="text" default="" visible="false"/>
+		<setting id="login-opensubsbyopensubs" type="text" default="" visible="false"/>
+		<setting id="login-orion" type="text" default="" visible="false"/>
+		
+		<setting id="tmdb-covenant" type="text" default="" visible="false"/>
+		<setting id="tmdb-exodus" type="text" default="" visible="false"/>
+		<setting id="tmdb-flixnet" type="text" default="" visible="false"/>
+		<setting id="tmdb-incursion" type="text" default="" visible="false"/>
+		<setting id="tmdb-genesisreborn" type="text" default="" visible="false"/>
+		<setting id="tmdb-lastship" type="text" default="" visible="false"/>
+		<setting id="tmdb-exodusredux" type="text" default="" visible="false"/>
+		<setting id="login-eis" type="text" default="" visible="false"/>
+		<setting id="tmdb-gaia" type="text" default="" visible="false"/>
+		<setting id="tmdb-metadatautils" type="text" default="" visible="false"/>
+		<setting id="tmdb-eis" type="text" default="" visible="false"/>
+		<setting id="tmdb-wrp-metaplayer" type="text" default="" visible="false"/>
+		<setting id="tmdb-overeasy" type="text" default="" visible="false"/>
+		<setting id="tmdb-placenta" type="text" default="" visible="false"/>
+		<setting id="tmdb-premiumizer" type="text" default="" visible="false"/>
+		<setting id="tmdb-realizer" type="text" default="" visible="false"/>
+		<setting id="tmdb-scrubs" type="text" default="" visible="false"/>
+		<setting id="tmdb-seren" type="text" default="" visible="false"/>
+		<setting id="tmdb-venom" type="text" default="" visible="false"/>
+		<setting id="tmdb-yoda" type="text" default="" visible="false"/>
+		<setting id="trakt-wrp-metaplayer" type="text" default="" visible="false"/>
+		<setting id="trakt-seren" type="text" default="" visible="false"/>
+		<setting id="tvdb-metahandler" type="text" default="" visible="false"/>
+		<setting id="tvdb-wrp-metaplayer" type="text" default="" visible="false"/>
+		<setting id="tvdb-premiumizer" type="text" default="" visible="false"/>
+		<setting id="tvdb-realizer" type="text" default="" visible="false"/>
+		<setting id="tvdb-seren" type="text" default="" visible="false"/>
+		<setting id="location-yahoo" type="text" default="" visible="false"/>
+		<setting id="ws-wonderfulsubs" type="text" default="" visible="false"/>
+	</category>
+
+	<category label="Voreinstellungen">
+        <setting type="lsep" label="Speichern Sie ihre Daten vor der Build Installation"/>
+        <setting id="keeptrakt" type="bool" label="Meine Trakt-Daten behalten" default="false"/>
+        <setting id="traktlastsave" type="text" label="Zuletzt gespeicherte Traktdaten:" visible="!eq(-1, false)" enable="false"/>
+        <setting id="keepdebrid" type="bool" label="Meine Real Debrid-Daten behalten" default="false"/>
+        <setting id="debridlastsave" type="text" label="Zuletzt gespeicherte Debrid-Daten:" visible="!eq(-1, false)" enable="false"/>
+        <setting id="keeplogin" type="bool" label="Meine Anmeldedaten behalten" default="false"/>
+        <setting id="loginlastsave" type="text" label="Zuletzt gespeicherte Anmeldedaten:" visible="!eq(-1, false)" enable="false"/>
+		<setting type="lsep" label="Behalten Sie ihre Einstellungen vor der Build Installation"/>
+		<setting id="keepfavourites" type="bool" label="Meine Favoriten behalten" default="false"/>
+		<setting id="keepsources" type="bool" label="Meine Quellen behalten" default="false"/>
+		<setting id="keepprofiles" type="bool" label="Meine Profile behalten" default="false"/>
+		<setting id="keepplayercore" type="bool" label="Meine Playercorefactory.xml behalten" default="false"/>
+		<setting id="keepadvanced" type="bool" label="Meine AdvancedSettings.xml behalten" default="false"/>
+		<setting id="keeprepos" type="bool" label="Meine installierten Repositories behalten" default="false"/>
+		<setting id="keepsuper" type="bool" label="Meine Super Favourites behalten"  default="false"/>
+		<setting id="keepwhitelist" type="bool" label="Meine  Whitelist Addons behalten" default="false"/>
+		<setting type="lsep" label="Drittanbieter Wizard Unterstützung"/>
+		<setting id="enable3rd" type="bool" label="Aktiviere Drittanbieter Wizards" default="false"/>
+		<setting id="wizard1name" type="text" label="Wizard 1 Name: " enable="true" visible="!eq(-1,false)" default=""/>
+		<setting id="wizard1url" type="text" label="Wizard 1 URL: " enable="true" visible="!eq(-2,false)" default=""/>
+		<setting id="wizard2name" type="text" label="Wizard 2 Name: " enable="true" visible="!eq(-3,false)" default=""/>
+		<setting id="wizard2url" type="text" label="Wizard 2 URL: " enable="true" visible="!eq(-4,false)" default=""/>
+		<setting id="wizard3name" type="text" label="Wizard 3 Name: " enable="true" visible="!eq(-5,false)" default=""/>
+		<setting id="wizard3url" type="text" label="Wizard 3 URL: " enable="true" visible="!eq(-6,false)" default=""/>
+	</category>
+
+	<category label="Extras / Ansichten">
+		<setting type="lsep" label="Ansichten aktivieren"/>
+		<setting id="developer" type="bool" label="Zeige Entwicklermenü: " enable="true" default="false"/>
+		<setting id="adult" type="bool" label="Zeige P18 Inhalte an: " enable="true" default="false"/>
+		<setting id="auto-view" type="bool" label="Aktivieren Sie die automatische Ansicht" default="true"/>
+		<setting id="viewType" type="number" label="Ansichtstyp" default="50" visible="!eq(-1, false)" enable="!eq(-1,false)"/>
+		<setting type="lsep" label="Benachrichtigungsfenster beim Start"/>
+		<setting id="notify" type="bool" label="Benachrichtigung beim Start deaktivieren" default="false" />
+		<setting id="noteid" type="text" label="Letzte Benachrichtigung" visible="false" />
+		<setting id="notedismiss" type="bool" label="Entfernen oder erinnern Sie mich später" visible="false" />
+	</category>
+
+	<category label="Protokollierung">
+		<setting type="lsep" label="Ereignisprotokollierung im Wizard"/>
+		<setting id="addon_debug" type="bool" label="Aktivieren Sie den Wizard Log" default="true"/>
+		<setting id="debuglevel" type="enum" label="Auf welcher Ebene soll der Wizard protokollieren?" enable="!eq(-1,false)" values="Nichts|Normal|Voll" default="2"/>
+		<setting id="wizardlog" type="bool" label="Aktivieren Sie die Schreibfunktion im Wizard.Log" visible="false" default="true"/>
+		<setting id="autocleanwiz" type="bool" label="Wizard Log automatisch bereinigen" enable="!eq(-3,false)" default="true"/>
+		<setting id="wizlogcleanby" type="enum" label="Art der Bereinigung des Wizard.log" enabled="!eq(-4, false)" values="von Tagen|nach Größe|Nach Zeilen" default="1"/>
+		<setting id="wizlogcleandays" type="enum" subsetting="true" label="Bereinigung des Wizard.log?" enable="!eq(-5,false)" visible="eq(-1,0)+!eq(-2,false)" values="1 Tag|2 Tage|3 Tage|7 Tage" default="2"/>
+		<setting id="wizlogcleansize" type="enum" subsetting="true" label="Max Größe des Wizard.log?" enable="!eq(-6,false)" visible="eq(-2,1)+!eq(-3,false)" values="100 KB|200 KB|300 KB|400 KB|500 KB|1 MB" default="1"/>
+		<setting id="wizlogcleanlines" type="enum" subsetting="true" label="Max Anzahl der Zeilen des Wizard.log?" enable="!eq(-7,false)" visible="eq(-3,2)+!eq(-4,false)" values="100|200|300|400|500" default="2"/>
+		<setting id="nextcleandate" type="text" label="Nächstes Mal wenn der Wizard Log bereinigt wird:" visible="false" default=""/>
+
+		<setting id="kodi17iscrap" type="text" default="" visible="false"/>
+		<setting id="rompath" type="text" default="" visible="false"/>
+	</category>
+</settings>

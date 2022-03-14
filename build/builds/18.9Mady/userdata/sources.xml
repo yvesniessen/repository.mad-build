@@ -1,0 +1,37 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>WRP-MetaPlayer Filme</name>
+            <path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/Movies/</path>
+            <thumbnail pathversion="1">C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.video.wrp-metaplayer\resources\media\movies.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>WRP-MetaPlayer TV-Serien</name>
+            <path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/TVShows/</path>
+            <thumbnail pathversion="1">C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.video.wrp-metaplayer\resources\media\tv.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>Downloads</name>
+            <path pathversion="1">E:\Users\MaD\Downloads\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>

@@ -1,0 +1,2 @@
+#LWP-Cookies-2.0
+Set-Cookie3: PHPSESSID=m5rr8s2h1g1dqp6qr4pidq1sl6; path="/"; domain=".kinoger.com"; path_spec; domain_dot; discard; HttpOnly=None; version=0

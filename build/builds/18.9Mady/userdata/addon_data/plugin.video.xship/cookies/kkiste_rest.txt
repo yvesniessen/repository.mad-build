@@ -1,0 +1,2 @@
+#LWP-Cookies-2.0
+Set-Cookie3: PHPSESSID=1kpo4bec89bb399g7h855fe1et; path="/"; domain="kkiste.rest"; path_spec; discard; HttpOnly=None; version=0

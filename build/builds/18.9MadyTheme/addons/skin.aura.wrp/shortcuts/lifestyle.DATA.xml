@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>12600</label>
+		<label2>Allgemeiner Menü Eintrag</label2>
+		<icon>special://skin/extras/icons/sun.png</icon>
+		<thumb />
+		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.chefkoch_de</defaultID>
+		<label>Chefkoch</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/years.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.filmstarts</defaultID>
+		<label>Filmstarts</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/play.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.filmstarts",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>KinoCheck</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/play2.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FTrailer%2FKinocheck.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5DKinoCheck%28+%5BCOLOR+lime%5D7%5B%2FCOLOR%5D+%29%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fi.ytimg.com%2Fvi%2F4Xtvpv0T9dU%2Fmaxresdefault.jpg",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.hdtrailers_net</defaultID>
+		<label>HD-Trailers</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/hd.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.hdtrailers_net",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Mediatheken</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/director.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.super.favourites/?label=Mediatheken&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CMediatheken&amp;image=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.ardmediathek_de%5Cicon.png&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.ardmediathek_de%5Cfanart.jpg&amp;content_type=",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>24001</defaultID>
+		<label>Sky Sport</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>special://skin/extras/icons/addons.png</icon>
+		<thumb>special://skin/extras/icons/soccer.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>programs</defaultID>
+		<label>Sportschau</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>special://skin/extras/icons/addons.png</icon>
+		<thumb>special://skin/extras/icons/basketball.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</action>
+	</shortcut>
+</shortcuts>

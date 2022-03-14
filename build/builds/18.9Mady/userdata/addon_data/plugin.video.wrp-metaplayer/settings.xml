@@ -1,0 +1,34 @@
+<settings version="2">
+    <setting id="countenabled">true</setting>
+    <setting id="DevUpdate" default="true">false</setting>
+    <setting id="DevUpdateAuto" default="true">false</setting>
+    <setting id="enablefanart">true</setting>
+    <setting id="fanart.apikey" default="true"></setting>
+    <setting id="flatten.tvshows">1</setting>
+    <setting id="githubUpdateWRPinfo" default="true">false</setting>
+    <setting id="githubUpdateWRPmeta" default="true">false</setting>
+    <setting id="include_specials" default="true">false</setting>
+    <setting id="LangID" default="true">de</setting>
+    <setting id="library_sync_collection" default="true">false</setting>
+    <setting id="library_updates">true</setting>
+    <setting id="movies_batch_add_file_path">special://profile/addon_data/plugin.video.wrp-metaplayer/movies_to_add.txt</setting>
+    <setting id="movies_default_action">1</setting>
+    <setting id="movies_library_folder">special://profile/addon_data/plugin.video.wrp-metaplayer/Movies/</setting>
+    <setting id="moviesdefault">Abspielen mit xShip</setting>
+    <setting id="players_update_url" default="true">http://bit.ly/2r5yjwT</setting>
+    <setting id="random_pages">3</setting>
+    <setting id="tmdb_api" default="true"></setting>
+    <setting id="total_setup_done">true</setting>
+    <setting id="trakt_access_token" default="true"></setting>
+    <setting id="trakt_api_client_id" default="true"></setting>
+    <setting id="trakt_api_client_secret" default="true"></setting>
+    <setting id="trakt_expires_at" default="true"></setting>
+    <setting id="trakt_items_per_page">10</setting>
+    <setting id="trakt_refresh_token" default="true"></setting>
+    <setting id="tv_batch_add_file_path">special://profile/addon_data/plugin.video.wrp-metaplayer/shows_to_add.txt</setting>
+    <setting id="tv_library_folder">special://profile/addon_data/plugin.video.wrp-metaplayer/TVShows/</setting>
+    <setting id="tvdb_api" default="true"></setting>
+    <setting id="tvshows_default_action">2</setting>
+    <setting id="tvshowsdefault">Abspielen mit xShip</setting>
+    <setting id="wrp_library_update_url" default="true">https://bit.ly/3ca3Sb3</setting>
+</settings>

@@ -1,0 +1,665 @@
+[2022-03-12 22:37:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:37:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:37:12] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:37:12] 2022-03-12 22:37:12.709000
+[2022-03-12 22:37:13] Continuing Start Up Script
+[2022-03-12 22:37:13] [Path Check] Started
+[2022-03-12 22:37:13] [Path Check] Good!
+[2022-03-12 22:37:13] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:37:13] [Auto Repo Installation] gestartet
+[2022-03-12 22:37:13] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:37:13] [Auto Update Wizard] Started
+[2022-03-12 22:37:13] [Notifications] Started
+[2022-03-12 22:37:14] [Notifications] id: 44
+[2022-03-12 22:37:17] [Notification] NotifyID 44 Ignorieren
+[2022-03-12 22:37:17] [Notifications] Abgeschlossen
+[2022-03-12 22:37:17] [Installed Check] Started
+[2022-03-12 22:37:17] [Installed Check] Not Enabled
+[2022-03-12 22:37:17] [Build Check] Started
+[2022-03-12 22:37:17] [Build Check] First Run
+[2022-03-12 22:37:28] [First Run] [User Selected: Ignore Build Menu] [Next Check: 2022-03-12]
+[2022-03-12 22:37:28] [Trakt Data] Started
+[2022-03-12 22:37:28] [Trakt Data] Not Enabled
+[2022-03-12 22:37:28] [Debrid Data] Started
+[2022-03-12 22:37:28] [Real Debrid Data] Not Enabled
+[2022-03-12 22:37:28] [Login Info] Started
+[2022-03-12 22:37:28] [Login Info] Not Enabled
+[2022-03-12 22:37:28] [Auto Clean Up] Started
+[2022-03-12 22:37:28] [Auto Clean Up] Cache: On
+[2022-03-12 22:37:28] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:37:28] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:37:28] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:37:28] [Auto Clean Up] Packages: On
+[2022-03-12 22:38:13] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:13] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:14] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:14] [ Version : '2.0.2' ] [ Mode : 'None' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:38:20] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:21] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:21] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:22] [ Version : '2.0.2' ] [ Mode : 'builds' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:38:30] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:31] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:31] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:38:32] [ Version : '2.0.2' ] [ Mode : 'install' ] [ Name : 'WRP Netflix Style Edition' ] [ Url : 'normal' ]
+[2022-03-12 22:38:46] lookandfeel.enablerssfeeds gespeichert zu false
+[2022-03-12 22:38:46] lookandfeel.font gespeichert zu "Default"
+[2022-03-12 22:38:46] lookandfeel.rssedit gespeichert zu ""
+[2022-03-12 22:38:46] lookandfeel.skincolors gespeichert zu "SKINDEFAULT"
+[2022-03-12 22:38:46] lookandfeel.skintheme gespeichert zu "SKINDEFAULT"
+[2022-03-12 22:38:46] lookandfeel.skinzoom gespeichert zu 0
+[2022-03-12 22:38:46] lookandfeel.soundskin gespeichert zu "resource.uisounds.kodi"
+[2022-03-12 22:38:46] lookandfeel.startupwindow gespeichert zu 10000
+[2022-03-12 22:38:46] lookandfeel.stereostrength gespeichert zu 5
+[2022-03-12 22:38:46] [Standard Skin Überprüfung]
+[2022-03-12 22:38:46] Lese GUI Datei: C:\Users\MaD\AppData\Roaming\Kodi\userdata\guisettings.xml
+[2022-03-12 22:38:46] Öffne GUI Einstellungen
+[2022-03-12 22:38:46] Treffer: []
+[2022-03-12 22:38:46] [Standard Skin Überprüfung] Ende
+[2022-03-12 22:38:46] Installiert 100: [Fehler:0]
+[2022-03-12 22:38:52] Theme Liste: ['WRPflix Android Edition', 'WRPflix PC Edition', 'WRPflix XBOX Edition'] 
+[2022-03-12 22:38:55] Theme Installation ausgewählt: 1
+[2022-03-12 22:39:00] Installiert 100: [Fehler:0]
+[2022-03-12 22:39:00] Force Closing Kodi: Platform[windows]
+[2022-03-12 22:39:12] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:13] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:13] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:14] 2022-03-12 22:39:14.588000
+[2022-03-12 22:39:15] Continuing Start Up Script
+[2022-03-12 22:39:15] [Path Check] Started
+[2022-03-12 22:39:15] [Path Check] Good!
+[2022-03-12 22:39:15] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:39:15] [Auto Repo Installation] gestartet
+[2022-03-12 22:39:15] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:39:15] [Auto Update Wizard] Started
+[2022-03-12 22:39:15] [Notifications] Started
+[2022-03-12 22:39:15] [Notifications] id[44] Entfernen
+[2022-03-12 22:39:15] [Installed Check] Started
+[2022-03-12 22:39:16] skin.aura.wrp was disabled
+[2022-03-12 22:39:18] [Trakt Data] Started
+[2022-03-12 22:39:18] [Trakt Data] Not Enabled
+[2022-03-12 22:39:18] [Debrid Data] Started
+[2022-03-12 22:39:18] [Real Debrid Data] Not Enabled
+[2022-03-12 22:39:18] [Login Info] Started
+[2022-03-12 22:39:18] [Login Info] Not Enabled
+[2022-03-12 22:39:18] [Auto Clean Up] Started
+[2022-03-12 22:39:18] [Auto Clean Up] Cache: On
+[2022-03-12 22:39:18] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:39:18] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\0f4c6f059e42b248c076bd4e302d1799.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\2c66a3fbb7c3b0f1edc91d66464c759a.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\2d03088708d114e7dd55d10ec6a00882.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\32a84c6d265b9efcb9b2203657670724.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\37c422ddf1a9694358e2bdf772b6a243.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\690f0dbd9b6f2d69821bd77f6fcc2692.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\6b12d8bc185540a8714c8101b3455d72.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\82bac5a79809941d037bbf2e75361294.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\a3c068f059c799d1650fe67ca02a0929.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\b6687f09871269fb4f3957009d09c698.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\e38696f02ba1b72b205a0af8d9acc330.txt
+[2022-03-12 22:39:18] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:39:18] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:39:20] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:39:20] [Auto Clean Up] Packages: On
+[2022-03-12 22:39:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:41] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:41] [ Version : '2.0.2' ] [ Mode : 'builds' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:39:44] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:45] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:45] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:46] [ Version : '2.0.2' ] [ Mode : 'install' ] [ Name : 'WRP Netflix Style Edition' ] [ Url : 'gui' ]
+[2022-03-12 22:39:46] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:47] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:47] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:39:48] [ Version : '2.0.2' ] [ Mode : 'builds' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:39:50] [Standard Skin Überprüfung]
+[2022-03-12 22:39:50] Lese GUI Datei: C:\Users\MaD\AppData\Roaming\Kodi\userdata\guisettings.xml
+[2022-03-12 22:39:50] Öffne GUI Einstellungen
+[2022-03-12 22:39:50] Treffer: []
+[2022-03-12 22:39:50] [Standard Skin Überprüfung] Ende
+[2022-03-12 22:39:50] lookandfeel.enablerssfeeds gespeichert zu false
+[2022-03-12 22:39:50] lookandfeel.font gespeichert zu "Default"
+[2022-03-12 22:39:50] lookandfeel.rssedit gespeichert zu ""
+[2022-03-12 22:39:50] lookandfeel.skincolors gespeichert zu "SKINDEFAULT"
+[2022-03-12 22:39:50] lookandfeel.skintheme gespeichert zu "SKINDEFAULT"
+[2022-03-12 22:39:50] lookandfeel.skinzoom gespeichert zu 0
+[2022-03-12 22:39:50] lookandfeel.soundskin gespeichert zu "resource.uisounds.kodi"
+[2022-03-12 22:39:50] lookandfeel.startupwindow gespeichert zu 10000
+[2022-03-12 22:39:50] lookandfeel.stereostrength gespeichert zu 5
+[2022-03-12 22:39:50] Force Closing Kodi: Platform[windows]
+[2022-03-12 22:40:00] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:40:01] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:40:01] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:40:02] 2022-03-12 22:40:02.339000
+[2022-03-12 22:40:03] Continuing Start Up Script
+[2022-03-12 22:40:03] [Path Check] Started
+[2022-03-12 22:40:03] [Path Check] Good!
+[2022-03-12 22:40:03] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:40:03] [Auto Repo Installation] gestartet
+[2022-03-12 22:40:03] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:40:03] [Auto Update Wizard] Started
+[2022-03-12 22:40:03] [Notifications] Started
+[2022-03-12 22:40:03] [Notifications] id[44] Entfernen
+[2022-03-12 22:40:03] [Installed Check] Started
+[2022-03-12 22:40:03] [Installed Check] Not Enabled
+[2022-03-12 22:40:03] [Build Check] Started
+[2022-03-12 22:40:03] [Build Check] Build Installed
+[2022-03-12 22:40:03] [Build Check] Invalid Skin Check Start
+[2022-03-12 22:40:03] C:\Users\MaD\AppData\Roaming\Kodi\addons\skin.aura.wrp\: skin.aura.wrp
+[2022-03-12 22:40:09] lookandfeel.enablerssfeeds wiederhergestellt aus false
+[2022-03-12 22:40:09] lookandfeel.font wiederhergestellt aus "Default"
+[2022-03-12 22:40:09] lookandfeel.rssedit wiederhergestellt aus ""
+[2022-03-12 22:40:09] lookandfeel.skincolors wiederhergestellt aus "SKINDEFAULT"
+[2022-03-12 22:40:09] lookandfeel.skintheme wiederhergestellt aus "SKINDEFAULT"
+[2022-03-12 22:40:09] lookandfeel.skinzoom wiederhergestellt aus 0
+[2022-03-12 22:40:09] lookandfeel.soundskin wiederhergestellt aus "resource.uisounds.kodi"
+[2022-03-12 22:40:09] lookandfeel.startupwindow wiederhergestellt aus 10000
+[2022-03-12 22:40:09] lookandfeel.stereostrength wiederhergestellt aus 5
+[2022-03-12 22:40:09] [Build Check] Invalid Skin Check End
+[2022-03-12 22:40:09] [Build Check] Build Installed: Checking Updates
+[2022-03-12 22:40:09] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 22:40:09] [Trakt Data] Started
+[2022-03-12 22:40:09] [Trakt Data] Not Enabled
+[2022-03-12 22:40:09] [Debrid Data] Started
+[2022-03-12 22:40:09] [Real Debrid Data] Not Enabled
+[2022-03-12 22:40:09] [Login Info] Started
+[2022-03-12 22:40:09] [Login Info] Not Enabled
+[2022-03-12 22:40:09] [Auto Clean Up] Started
+[2022-03-12 22:40:09] [Auto Clean Up] Cache: On
+[2022-03-12 22:40:09] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:40:09] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:40:09] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:40:09] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:40:10] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:40:10] [Auto Clean Up] Packages: On
+[2022-03-12 22:42:07] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:08] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:08] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:09] 2022-03-12 22:42:09.213000
+[2022-03-12 22:42:10] Continuing Start Up Script
+[2022-03-12 22:42:10] [Path Check] Started
+[2022-03-12 22:42:10] [Path Check] Good!
+[2022-03-12 22:42:10] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:42:10] [Auto Repo Installation] gestartet
+[2022-03-12 22:42:10] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:42:10] [Auto Update Wizard] Started
+[2022-03-12 22:42:10] [Notifications] Started
+[2022-03-12 22:42:10] [Notifications] id[44] Entfernen
+[2022-03-12 22:42:10] [Installed Check] Started
+[2022-03-12 22:42:10] [Installed Check] Not Enabled
+[2022-03-12 22:42:10] [Build Check] Started
+[2022-03-12 22:42:10] [Build Check] Build Installed
+[2022-03-12 22:42:10] [Build Check] Build Installed: Checking Updates
+[2022-03-12 22:42:10] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 22:42:10] [Trakt Data] Started
+[2022-03-12 22:42:10] [Trakt Data] Not Enabled
+[2022-03-12 22:42:10] [Debrid Data] Started
+[2022-03-12 22:42:10] [Real Debrid Data] Not Enabled
+[2022-03-12 22:42:10] [Login Info] Started
+[2022-03-12 22:42:10] [Login Info] Not Enabled
+[2022-03-12 22:42:10] [Auto Clean Up] Started
+[2022-03-12 22:42:10] [Auto Clean Up] Cache: On
+[2022-03-12 22:42:10] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.simplecache 
+[2022-03-12 22:42:10] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:42:10] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:42:11] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:42:11] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:42:11] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:42:11] [Auto Clean Up] Packages: On
+[2022-03-12 22:42:23] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:23] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:24] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:24] [ Version : '2.0.2' ] [ Mode : 'advancedsetting' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:42:52] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:53] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:53] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:42:54] [ Version : '2.0.2' ] [ Mode : 'autoadvanced' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:43:10] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:10] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:11] [ Version : '2.0.2' ] [ Mode : 'advancedsetting' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:43:22] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:22] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:23] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:23] [ Version : '2.0.2' ] [ Mode : 'builds' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:43:39] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:39] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:40] [ Version : '2.0.2' ] [ Mode : 'None' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:43:56] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:57] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:57] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:43:58] [ Version : '2.0.2' ] [ Mode : 'settings' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:44:30] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:31] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:31] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:32] [ Version : '2.0.2' ] [ Mode : 'None' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:44:38] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:39] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:39] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:40] [ Version : '2.0.2' ] [ Mode : 'maint' ] [ Name : 'clean' ] [ Url : 'None' ]
+[2022-03-12 22:44:44] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:44] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:45] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:45] [ Version : '2.0.2' ] [ Mode : 'fullclean' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:44:47] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.simplecache 
+[2022-03-12 22:44:47] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:44:47] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:44:47] Löschen fehlgeschlagen, DB wird gelöscht.
+[2022-03-12 22:44:47] DB Bereinigung Textures13.db.
+[2022-03-12 22:44:47] Textures13.db not found.
+[2022-03-12 22:44:47] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.metadatautils\animatedgifs
+[2022-03-12 22:44:47] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\Thumbnails
+[2022-03-12 22:44:47] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.extendedinfo\images
+[2022-03-12 22:44:47] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\images
+[2022-03-12 22:44:47] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:48] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:48] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:44:49] [ Version : '2.0.2' ] [ Mode : 'maint' ] [ Name : 'clean' ] [ Url : 'None' ]
+[2022-03-12 22:46:49] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:46:50] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:46:50] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:46:51] 2022-03-12 22:46:51.246000
+[2022-03-12 22:46:52] Continuing Start Up Script
+[2022-03-12 22:46:52] [Path Check] Started
+[2022-03-12 22:46:52] [Path Check] Good!
+[2022-03-12 22:46:52] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:46:52] [Auto Repo Installation] gestartet
+[2022-03-12 22:46:52] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:46:52] [Auto Update Wizard] Started
+[2022-03-12 22:46:53] [Notifications] Started
+[2022-03-12 22:46:53] [Notifications] id[44] Entfernen
+[2022-03-12 22:46:53] [Installed Check] Started
+[2022-03-12 22:46:53] [Installed Check] Not Enabled
+[2022-03-12 22:46:53] [Build Check] Started
+[2022-03-12 22:46:53] [Build Check] Build Installed
+[2022-03-12 22:46:53] [Build Check] Build Installed: Checking Updates
+[2022-03-12 22:46:53] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 22:46:53] [Trakt Data] Started
+[2022-03-12 22:46:53] [Trakt Data] Not Enabled
+[2022-03-12 22:46:53] [Debrid Data] Started
+[2022-03-12 22:46:53] [Real Debrid Data] Not Enabled
+[2022-03-12 22:46:53] [Login Info] Started
+[2022-03-12 22:46:53] [Login Info] Not Enabled
+[2022-03-12 22:46:53] [Auto Clean Up] Started
+[2022-03-12 22:46:53] [Auto Clean Up] Cache: On
+[2022-03-12 22:46:53] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:46:53] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:46:53] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:46:53] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:46:53] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:46:53] [Auto Clean Up] Packages: On
+[2022-03-12 22:47:01] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:02] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:02] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:03] [ Version : '2.0.2' ] [ Mode : 'builds' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:47:08] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:09] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:09] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:10] [ Version : '2.0.2' ] [ Mode : 'install' ] [ Name : 'WRP Netflix Style Edition' ] [ Url : 'normal' ]
+[2022-03-12 22:47:39] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:47:41] [ Version : '2.0.2' ] [ Mode : 'None' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 22:53:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:53:12] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:53:12] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:53:13] 2022-03-12 22:53:13.181000
+[2022-03-12 22:53:14] Continuing Start Up Script
+[2022-03-12 22:53:14] [Path Check] Started
+[2022-03-12 22:53:14] [Path Check] Good!
+[2022-03-12 22:53:14] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:53:14] [Auto Repo Installation] gestartet
+[2022-03-12 22:53:14] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:53:14] [Auto Update Wizard] Started
+[2022-03-12 22:53:14] [Notifications] Started
+[2022-03-12 22:53:14] [Notifications] id[44] Entfernen
+[2022-03-12 22:53:14] [Installed Check] Started
+[2022-03-12 22:53:14] [Installed Check] Not Enabled
+[2022-03-12 22:53:14] [Build Check] Started
+[2022-03-12 22:53:14] [Build Check] Build Installed
+[2022-03-12 22:53:14] [Build Check] Build Installed: Checking Updates
+[2022-03-12 22:53:14] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 22:53:14] [Trakt Data] Started
+[2022-03-12 22:53:14] [Trakt Data] Not Enabled
+[2022-03-12 22:53:14] [Debrid Data] Started
+[2022-03-12 22:53:14] [Real Debrid Data] Not Enabled
+[2022-03-12 22:53:14] [Login Info] Started
+[2022-03-12 22:53:14] [Login Info] Not Enabled
+[2022-03-12 22:53:14] [Auto Clean Up] Started
+[2022-03-12 22:53:14] [Auto Clean Up] Cache: On
+[2022-03-12 22:53:14] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:53:14] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 22:53:14] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\0d6823672fdcdce2e568479ffbf5289a.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\0e4d03b195b6d724ef0d538a1a59868f.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\1069942d2e4502738263156c1a234fea.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\233365be9264ebbe3c70eaeab5889c32.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\280a364db1edc559cf1debe054bad8fd.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\2c434b22ae970a90a65e67730cf5a414.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\339e1f346ae1adb1f2193557d5236d0b.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\380064313dd8b116c7d50d28206723e9.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\4393900e13391c9aed97e2c5431758fc.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\4d0e10ed4820b03a605cf52703a0be11.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\50209f5bf5bbce7b0b4049fe0a8af4f1.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\524683a45ce1bf4ebe91e53c6ca9b50f.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\53ead7a51402282dc7638ffb48a126aa.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\5eba5a9c31704f1bf87a210648d4576e.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\67e61cdf632a930becef9ce2ac8caeb2.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\6b12d8bc185540a8714c8101b3455d72.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\7a95a4d5ff6895b88ed241198b229143.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\7d5a26e22512eaf1a32aebf45fdea726.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\7e70bf2ee7d26d84f03e006c4cef5155.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\81bb8a3b6302bbcc9d97c9b25bc7cb57.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\867c0404c1d872a6032b06ccc6ad23cd.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\8cb2f9dd1cec3f66d1f777c5cde9cc1e.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\9d2a6f718c4fbcca545fcc9ef031411f.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\9f04d1e4cc27ac890f19b4ec02912521.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\b188a60683a30f23ff6567042758f9dd.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\c88f958e8fd55aaec7d71affbb25ea42.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\ce3843e055a5400459ca7bfbb14cf72c.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d599ac35a2165e0a7be7ff9fc415e6df.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\e08549b64b57f9fa5f4c44b6478d6ed5.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\e57802693934472e765e95bc1b873cc6.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\ea776fa755bb17eb35b027e108f47a67.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\f1c5479b561e95d8ee227a3ee5e40763.txt
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:53:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:53:15] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:53:15] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:53:15] [Auto Clean Up] Packages: On
+[2022-03-12 22:55:36] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:55:36] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:55:37] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 22:55:37] 2022-03-12 22:55:37.955000
+[2022-03-12 22:55:38] Continuing Start Up Script
+[2022-03-12 22:55:38] [Path Check] Started
+[2022-03-12 22:55:38] [Path Check] Good!
+[2022-03-12 22:55:38] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 22:55:38] [Auto Repo Installation] gestartet
+[2022-03-12 22:55:38] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 22:55:38] [Auto Update Wizard] Started
+[2022-03-12 22:55:39] [Notifications] Started
+[2022-03-12 22:55:39] [Notifications] id[44] Entfernen
+[2022-03-12 22:55:39] [Installed Check] Started
+[2022-03-12 22:55:39] [Installed Check] Not Enabled
+[2022-03-12 22:55:39] [Build Check] Started
+[2022-03-12 22:55:39] [Build Check] Build Installed
+[2022-03-12 22:55:39] [Build Check] Invalid Skin Check Start
+[2022-03-12 22:55:39] C:\Users\MaD\AppData\Roaming\Kodi\addons\skin.aura.wrp\: skin.aura.wrp
+[2022-03-12 22:55:42] Skin was not reset
+[2022-03-12 22:55:42] [Build Check] Invalid Skin Check End
+[2022-03-12 22:55:42] [Build Check] Build Installed: Checking Updates
+[2022-03-12 22:55:42] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 22:55:42] [Trakt Data] Started
+[2022-03-12 22:55:42] [Trakt Data] Not Enabled
+[2022-03-12 22:55:42] [Debrid Data] Started
+[2022-03-12 22:55:42] [Real Debrid Data] Not Enabled
+[2022-03-12 22:55:42] [Login Info] Started
+[2022-03-12 22:55:42] [Login Info] Not Enabled
+[2022-03-12 22:55:42] [Auto Clean Up] Started
+[2022-03-12 22:55:42] [Auto Clean Up] Cache: On
+[2022-03-12 22:55:42] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 22:55:42] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\0d6823672fdcdce2e568479ffbf5289a.txt
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\ce3843e055a5400459ca7bfbb14cf72c.txt
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d8639018a71909c505d091859658cb93.txt
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 22:55:42] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 22:55:42] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 22:55:42] 0 gesamte Thumbs bereinigt.
+[2022-03-12 22:55:42] [Auto Clean Up] Packages: On
+[2022-03-12 23:10:17] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:18] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:18] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:19] 2022-03-12 23:10:19.426000
+[2022-03-12 23:10:20] Continuing Start Up Script
+[2022-03-12 23:10:20] [Path Check] Started
+[2022-03-12 23:10:20] [Path Check] Good!
+[2022-03-12 23:10:20] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 23:10:20] [Auto Repo Installation] gestartet
+[2022-03-12 23:10:20] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 23:10:20] [Auto Update Wizard] Started
+[2022-03-12 23:10:20] [Notifications] Started
+[2022-03-12 23:10:21] [Notifications] id[44] Entfernen
+[2022-03-12 23:10:21] [Installed Check] Started
+[2022-03-12 23:10:21] [Installed Check] Not Enabled
+[2022-03-12 23:10:21] [Build Check] Started
+[2022-03-12 23:10:21] [Build Check] Build Installed
+[2022-03-12 23:10:21] [Build Check] Build Installed: Checking Updates
+[2022-03-12 23:10:21] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 23:10:21] [Trakt Data] Started
+[2022-03-12 23:10:21] [Trakt Data] Not Enabled
+[2022-03-12 23:10:21] [Debrid Data] Started
+[2022-03-12 23:10:21] [Real Debrid Data] Not Enabled
+[2022-03-12 23:10:21] [Login Info] Started
+[2022-03-12 23:10:21] [Login Info] Not Enabled
+[2022-03-12 23:10:21] [Auto Clean Up] Started
+[2022-03-12 23:10:21] [Auto Clean Up] Cache: On
+[2022-03-12 23:10:21] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.simplecache 
+[2022-03-12 23:10:21] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 23:10:21] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.xship\htmlcache 
+[2022-03-12 23:10:21] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.xstream\htmlcache 
+[2022-03-12 23:10:21] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.resolveurl\cache 
+[2022-03-12 23:10:21] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\a205a94c9d79d6a92b777c8801fb4f84.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\fc1591faef8e63897f0e1be4b2cbaa42.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\YouTube\cf684701ec60d8b0cf6931d7389572a1.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\02ff35c2be7122a6830ba5991fe90c44.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\082d2b83f27ff42ea1d83fec6393b45b.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\14cd47b7ae0819f07ec993c472643907.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\1e52a23284c65cac17949acff9cbf158.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\25a7994ce097b05d7ae37af681660d88.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\298cade6fec3ec7dfdc7d301c553fafd.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\37f6dffe663727cc8dd22744fb5c2f81.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\3df7b3a9350c482a24ff6bc0e8401b70.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\3ee447579dfc19d677718d67bae262b3.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\3f0482cee0726960f3ea71fbd586e629.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\5900814f8d1f88d2ef80a67ec72fd2a5.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\620108c2130fdb47398135165ae3d998.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\629cc3d442cc861a94c2067850e4351e.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\6a8592db26dd4a6e0d00690f63a3e2c1.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\6f6ada1b636fb72aa3711741d2bda90d.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\6f9ef3ab0399bcc8dc5ace84a1bf684a.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\7db789ff7abed39d3cd99e65952eb425.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\845798551b3168978efd77baf87dde56.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\85add1fd0f503365aafa88e2e3f64453.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\92c5e8582ff966efeb74d1069ba81c7f.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\a7bba928646d52fca1dd805d88a8dde1.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\b96ba5911baa5ab01f10be296e695d40.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\be602e0b02ad79b669af427a256574a5.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\c37efaa750b52ed0af15cc711816e308.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\c56347f5b54121ba9393916e90d35114.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\cc0856b95d908f03464c5e36af0468f0.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d0a590248a71aa57362483d400fbc85d.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d2c9a808215bef458e97796f41910be3.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d654f3bda0545d8f633ccd7bdc4fd6ad.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\dc00c96f9c7433def6c39dc6573db051.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\dd7913a6f0eb3162e73fb47e6ab69c13.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\dd9085c90cd91e66e6163b204405b0ab.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\e0d8fddcf702d68a1cb8f1f87a37ecd6.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\e2b596b55dcfa46e5cf4cb94aee9b23c.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\ec16d670c5a2f7f262421c4b4388f05f.txt
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 23:10:21] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 23:10:21] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 23:10:22] 0 gesamte Thumbs bereinigt.
+[2022-03-12 23:10:22] [Auto Clean Up] Packages: On
+[2022-03-12 23:10:28] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:28] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:29] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:29] [ Version : '2.0.2' ] [ Mode : 'maint' ] [ Name : 'clean' ] [ Url : 'None' ]
+[2022-03-12 23:10:37] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:37] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:38] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:38] [ Version : '2.0.2' ] [ Mode : 'fullclean' ] [ Name : 'None' ] [ Url : 'None' ]
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 23:10:40] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 23:10:40] Löschen fehlgeschlagen, DB wird gelöscht.
+[2022-03-12 23:10:40] DB Bereinigung Textures13.db.
+[2022-03-12 23:10:40] Textures13.db not found.
+[2022-03-12 23:10:40] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.module.metadatautils\animatedgifs
+[2022-03-12 23:10:40] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\Thumbnails
+[2022-03-12 23:10:40] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.extendedinfo\images
+[2022-03-12 23:10:40] Entferne Ordner: C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\images
+[2022-03-12 23:10:40] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:41] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:41] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:10:42] [ Version : '2.0.2' ] [ Mode : 'maint' ] [ Name : 'clean' ] [ Url : 'None' ]
+[2022-03-12 23:16:41] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:16:41] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:16:42] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:16:42] 2022-03-12 23:16:42.836000
+[2022-03-12 23:16:43] Continuing Start Up Script
+[2022-03-12 23:16:43] [Path Check] Started
+[2022-03-12 23:16:43] [Path Check] Good!
+[2022-03-12 23:16:43] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 23:16:44] [Auto Repo Installation] gestartet
+[2022-03-12 23:16:44] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 23:16:44] [Auto Update Wizard] Started
+[2022-03-12 23:16:45] [Notifications] Started
+[2022-03-12 23:16:45] [Notifications] id[44] Entfernen
+[2022-03-12 23:16:45] [Installed Check] Started
+[2022-03-12 23:16:45] [Installed Check] Not Enabled
+[2022-03-12 23:16:45] [Build Check] Started
+[2022-03-12 23:16:45] [Build Check] Build Installed
+[2022-03-12 23:16:45] [Build Check] Build Installed: Checking Updates
+[2022-03-12 23:16:45] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 23:16:45] [Trakt Data] Started
+[2022-03-12 23:16:45] [Trakt Data] Not Enabled
+[2022-03-12 23:16:45] [Debrid Data] Started
+[2022-03-12 23:16:45] [Real Debrid Data] Not Enabled
+[2022-03-12 23:16:45] [Login Info] Started
+[2022-03-12 23:16:45] [Login Info] Not Enabled
+[2022-03-12 23:16:45] [Auto Clean Up] Started
+[2022-03-12 23:16:45] [Auto Clean Up] Cache: On
+[2022-03-12 23:16:45] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 23:16:45] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 23:16:45] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 23:16:45] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 23:16:45] 0 gesamte Thumbs bereinigt.
+[2022-03-12 23:16:45] [Auto Clean Up] Packages: On
+[2022-03-12 23:20:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:20:11] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:20:12] Working Url Error: <urlopen error unknown url type: c> [C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.program.wrp.manager\resources\art\fanart.jpg]
+[2022-03-12 23:20:13] 2022-03-12 23:20:13.053000
+[2022-03-12 23:20:14] Continuing Start Up Script
+[2022-03-12 23:20:14] [Path Check] Started
+[2022-03-12 23:20:14] [Path Check] Good!
+[2022-03-12 23:20:14] Löschen älterer zwischengespeicherter Textdateien
+[2022-03-12 23:20:14] [Auto Repo Installation] gestartet
+[2022-03-12 23:20:14] [Auto Repo Installation] Repository bereits installiert
+[2022-03-12 23:20:14] [Auto Update Wizard] Started
+[2022-03-12 23:20:14] [Notifications] Started
+[2022-03-12 23:20:14] [Notifications] id[44] Entfernen
+[2022-03-12 23:20:14] [Installed Check] Started
+[2022-03-12 23:20:14] [Installed Check] Not Enabled
+[2022-03-12 23:20:14] [Build Check] Started
+[2022-03-12 23:20:14] [Build Check] Build Installed
+[2022-03-12 23:20:14] [Build Check] Build Installed: Checking Updates
+[2022-03-12 23:20:15] [Suche Updates] [Installierte Version: 1.9.9] [Aktuelle Version: 1.9.9]
+[2022-03-12 23:20:15] [Trakt Data] Started
+[2022-03-12 23:20:15] [Trakt Data] Not Enabled
+[2022-03-12 23:20:15] [Debrid Data] Started
+[2022-03-12 23:20:15] [Real Debrid Data] Not Enabled
+[2022-03-12 23:20:15] [Login Info] Started
+[2022-03-12 23:20:15] [Login Info] Not Enabled
+[2022-03-12 23:20:15] [Auto Clean Up] Started
+[2022-03-12 23:20:15] [Auto Clean Up] Cache: On
+[2022-03-12 23:20:15] [Success] wiped C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.wrp.manager\Cache 
+[2022-03-12 23:20:15] [Success] cleared 1 files from C:\Users\MaD\AppData\Roaming\Kodi\cache\temp
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\50964dd331c9ee927c3f58b901ca8227.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\580f3c91688c1474f4441fc42dd4a023.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\769f47ce3b6e74851a81d2fa4326ccb7.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7925bc60c2445e2842acccf2f83bc766.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7d91a2cab92e5b62ddbec7bec9decc3c.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\7e793490960f3596f491646be7530858.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\bf732bc3108f1a979b5e3cc74f186d4d.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\script.wrpinfo\TheMovieDB\e0e0085e868d45efb05561e6bc001dec.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\03f911bfce75448fc2e3f9199f5ce000.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\1ebd15f117c159ef8218019855ea05f4.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\54d7076a4386fef928f15ddb784ce740.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\710207991f72d43dfca988e78862e961.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\8c1f4eb332b5390e3d1144212073f038.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\bda18af9cf346ad8a14db07bddfb4f9c.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\d229137b29d053e49711444744d4b399.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\ee80ebb1207d72595701ef91b9c951ef.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.program.autocompletion\Google\fce866f53c7eb88676fd26ef9ff5f6e2.txt
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\Fanart
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\genres
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheMovieDB.sqlite
+[2022-03-12 23:20:15] [Wiped] C:\Users\MaD\AppData\Roaming\Kodi\userdata\addon_data\plugin.video.wrp-metaplayer\.storage\TheTVDB.sqlite
+[2022-03-12 23:20:15] [Auto Clean Up] Old Thumbs: On
+[2022-03-12 23:20:15] 0 gesamte Thumbs bereinigt.
+[2022-03-12 23:20:15] [Auto Clean Up] Packages: On

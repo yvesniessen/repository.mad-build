@@ -1,0 +1,36 @@
+{
+"name"         : "Abspielen mit xShip",
+"repository"   : "repository.v",
+"plugin"       : "plugin.video.xship",
+"priority"     : 500,
+"id"           : "search.",
+"filters"      : {},
+"postprocess"  : "",
+"movies"       : [
+  [
+   {
+"link"      : "plugin://plugin.video.xship/?action=playExtern&title={title}&year={year}&imdb={imdb}&season=0&episode=0&originaltitle={title}",
+
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+"tvshows"      : [
+  [
+   {
+"link"      : "plugin://plugin.video.xship/?action=playExtern&title={clearname}&year={year}&imdb={imdb}&season={season}&episode={episode}&originaltitle={showname}",
+
+        "action"    : "PLAY"
+   }
+  ]
+ ],
+"musicvideos"  : [],
+
+"music"        : [],
+
+"live"         : []
+
+}
+
+
+

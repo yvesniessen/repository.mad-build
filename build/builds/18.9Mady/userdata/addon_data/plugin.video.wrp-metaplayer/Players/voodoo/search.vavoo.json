@@ -1,0 +1,26 @@
+{
+"name"         : "Abspielen mit Vavoo",
+"repository"   : "repository.vavoo",
+"plugin"       : "plugin.video.vavooto",
+"priority"     : 500,
+"id"           : "search.watched",
+"filters"      : {},
+"postprocess"  : "",
+"movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.vavooto/?action=search&amp;query={title}",
+    "steps"     : 
+	[".*"],
+    "action"    : "Play"
+   }
+  ]
+ ],
+"tvshows"      : [],
+"musicvideos"  : [],
+
+"music"        : [],
+
+"live"         : []
+
+}

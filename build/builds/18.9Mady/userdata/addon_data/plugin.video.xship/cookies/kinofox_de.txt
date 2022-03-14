@@ -1,0 +1,2 @@
+#LWP-Cookies-2.0
+Set-Cookie3: PHPSESSID=qi48ag073h7rc2sdbb4d4vhdfv; path="/"; domain="kinofox.de"; path_spec; discard; HttpOnly=None; version=0

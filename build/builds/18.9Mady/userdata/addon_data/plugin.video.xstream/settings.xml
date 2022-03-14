@@ -1,0 +1,99 @@
+<settings version="2">
+    <setting id="advanced" default="true">false</setting>
+    <setting id="anicloud.pass" default="true"></setting>
+    <setting id="anicloud.user" default="true"></setting>
+    <setting id="auto-view" default="true">false</setting>
+    <setting id="backdrop_tmdb" default="true">w1280</setting>
+    <setting id="cacheTime">600</setting>
+    <setting id="Color" default="true">lightblue</setting>
+    <setting id="DevUpdateAuto">true</setting>
+    <setting id="download-folder" default="true"></setting>
+    <setting id="enforceUpdate" default="true">false</setting>
+    <setting id="episodes-view">504</setting>
+    <setting id="files-view">55</setting>
+    <setting id="flimmerstube.pass" default="true"></setting>
+    <setting id="flimmerstube.user" default="true"></setting>
+    <setting id="githubUpdateResolver">true</setting>
+    <setting id="githubUpdateXstream">true</setting>
+    <setting id="global_search_anicloud_io">true</setting>
+    <setting id="global_search_dokus4" default="true">false</setting>
+    <setting id="global_search_filmpalast_to">true</setting>
+    <setting id="global_search_flimmerstube" default="true">false</setting>
+    <setting id="global_search_kinofox">true</setting>
+    <setting id="global_search_kinoger">true</setting>
+    <setting id="global_search_kinokiste" default="true">false</setting>
+    <setting id="global_search_kinokiste_tech">true</setting>
+    <setting id="global_search_kinox_to">true</setting>
+    <setting id="global_search_kkiste">true</setting>
+    <setting id="global_search_megakino">true</setting>
+    <setting id="global_search_movie4k_click">true</setting>
+    <setting id="global_search_movie4k_space">true</setting>
+    <setting id="global_search_movieking">true</setting>
+    <setting id="global_search_movietown_org">true</setting>
+    <setting id="global_search_netzkino" default="true">false</setting>
+    <setting id="global_search_pureanime" default="true">false</setting>
+    <setting id="global_search_serienstream_to">true</setting>
+    <setting id="global_search_streamworld">true</setting>
+    <setting id="global_search_xcine" default="true">false</setting>
+    <setting id="GlobalSearchPosition">true</setting>
+    <setting id="hosterSelect" default="true">dialog</setting>
+    <setting id="jd2_enabled" default="true">false</setting>
+    <setting id="jd2_host" default="true">127.0.0.1</setting>
+    <setting id="jd2_port">9666</setting>
+    <setting id="jd_automatic_start">true</setting>
+    <setting id="jd_enabled" default="true">false</setting>
+    <setting id="jd_grabber" default="true">false</setting>
+    <setting id="jd_host" default="true">127.0.0.1</setting>
+    <setting id="jd_port">10025</setting>
+    <setting id="kinoger-domain" default="true">kinoger.com</setting>
+    <setting id="kinox_to-domain" default="true">kinox.bz</setting>
+    <setting id="label0" default="true"></setting>
+    <setting id="maxHoster">100</setting>
+    <setting id="metaOverwrite">true</setting>
+    <setting id="movies-view">503</setting>
+    <setting id="myjd_device" default="true">JDownloader@Device</setting>
+    <setting id="myjd_enabled" default="true">false</setting>
+    <setting id="myjd_pass" default="true"></setting>
+    <setting id="myjd_user" default="true">example@example.com</setting>
+    <setting id="newSetting">true</setting>
+    <setting id="plugin_anicloud_io">true</setting>
+    <setting id="plugin_dokus4">true</setting>
+    <setting id="plugin_filmpalast_to">true</setting>
+    <setting id="plugin_flimmerstube">true</setting>
+    <setting id="plugin_kinofox">true</setting>
+    <setting id="plugin_kinoger">true</setting>
+    <setting id="plugin_kinokiste">true</setting>
+    <setting id="plugin_kinokiste_tech">true</setting>
+    <setting id="plugin_kinox_to">true</setting>
+    <setting id="plugin_kkiste">true</setting>
+    <setting id="plugin_megakino">true</setting>
+    <setting id="plugin_movie4k_click">true</setting>
+    <setting id="plugin_movie4k_space">true</setting>
+    <setting id="plugin_movieking">true</setting>
+    <setting id="plugin_movietown_org">true</setting>
+    <setting id="plugin_netzkino">true</setting>
+    <setting id="plugin_pureanime">true</setting>
+    <setting id="plugin_serienstream_to">true</setting>
+    <setting id="plugin_streamworld">true</setting>
+    <setting id="plugin_xcine">true</setting>
+    <setting id="poster_tmdb" default="true">w342</setting>
+    <setting id="preferedQuality">5</setting>
+    <setting id="prefLanguage">2</setting>
+    <setting id="presortHoster" default="true">false</setting>
+    <setting id="pureanime.pass" default="true"></setting>
+    <setting id="pureanime.user" default="true"></setting>
+    <setting id="pyload_enabled" default="true">false</setting>
+    <setting id="pyload_host" default="true">127.0.0.1</setting>
+    <setting id="pyload_passwd" default="true"></setting>
+    <setting id="pyload_port">8000</setting>
+    <setting id="pyload_user" default="true">user</setting>
+    <setting id="replacefanart">true</setting>
+    <setting id="requestTimeout">10</setting>
+    <setting id="seasons-view">504</setting>
+    <setting id="serienstream.pass">N$jL52Qdhfc!^4c</setting>
+    <setting id="serienstream.user">fjhakfjejwbdxkenex@awdrt.com</setting>
+    <setting id="SettingsFolder">true</setting>
+    <setting id="showAdult" default="true">false</setting>
+    <setting id="TMDBMETA" default="true">false</setting>
+    <setting id="tvshows-view">503</setting>
+</settings>

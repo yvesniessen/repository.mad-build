@@ -1,0 +1,30 @@
+{
+ "name"         : "Abspielen mit Netflix",
+ "plugin"       : "plugin.video.netflix",
+ "priority"     : 500,
+ "id"           : "search.netflix",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.netflix/directory/search/search/{title_+}/",
+    "steps"     : [ "{title}" ]
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.netflix/directory/search/search/{clearname_+}/",
+    "steps"     : [ "{clearname}", ".* {season}", "{episode}" ]
+   },
+   {
+    "link"      : "plugin://plugin.video.netflix/directory/search/search/{clearname_+}/",
+    "steps"     : [ "{clearname}", "{episode}" ]
+   },
+   {
+    "link"      : "plugin://plugin.video.netflix/directory/search/search/{clearname_+}/",
+    "steps"     : [ "{clearname}", "{clearname}", "{episode}" ]
+   }
+  ]
+ ]
+}

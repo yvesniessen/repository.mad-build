@@ -1,0 +1,193 @@
+<settings version="2">
+    <setting id="addon_debug">true</setting>
+    <setting id="adult" default="true">false</setting>
+    <setting id="auto-view">true</setting>
+    <setting id="autoclean">true</setting>
+    <setting id="autocleanfeq" default="true">0</setting>
+    <setting id="autocleanwiz">true</setting>
+    <setting id="buildname">WRP Netflix Style Edition</setting>
+    <setting id="buildtheme">WRPflix PC Edition</setting>
+    <setting id="buildversion">1.9.9</setting>
+    <setting id="clearcache">true</setting>
+    <setting id="clearpackages">true</setting>
+    <setting id="clearthumbs">true</setting>
+    <setting id="covenant" default="true"></setting>
+    <setting id="crashlog" default="true">false</setting>
+    <setting id="debridlastsave" default="true"></setting>
+    <setting id="debuglevel">2</setting>
+    <setting id="default.addonupdate" default="true"></setting>
+    <setting id="default.enablerssfeeds">false</setting>
+    <setting id="default.font">&quot;Default&quot;</setting>
+    <setting id="default.rssedit">&quot;&quot;</setting>
+    <setting id="default.skincolors">&quot;SKINDEFAULT&quot;</setting>
+    <setting id="default.skintheme">&quot;SKINDEFAULT&quot;</setting>
+    <setting id="default.skinzoom">0</setting>
+    <setting id="default.soundskin">&quot;resource.uisounds.kodi&quot;</setting>
+    <setting id="default.startupwindow">10000</setting>
+    <setting id="default.stereostrength">5</setting>
+    <setting id="defaultskin" default="true"></setting>
+    <setting id="defaultskinignore">true</setting>
+    <setting id="defaultskinname" default="true"></setting>
+    <setting id="developer" default="true">false</setting>
+    <setting id="disableupdate" default="true">false</setting>
+    <setting id="enable3rd" default="true">false</setting>
+    <setting id="errors" default="true"></setting>
+    <setting id="exodus" default="true"></setting>
+    <setting id="exodusredux" default="true"></setting>
+    <setting id="extract"></setting>
+    <setting id="fanart-covenant" default="true"></setting>
+    <setting id="fanart-exodus" default="true"></setting>
+    <setting id="fanart-exodusredux" default="true"></setting>
+    <setting id="fanart-flixnet" default="true"></setting>
+    <setting id="fanart-gaia" default="true"></setting>
+    <setting id="fanart-genesisreborn" default="true"></setting>
+    <setting id="fanart-incursion" default="true"></setting>
+    <setting id="fanart-lastship" default="true"></setting>
+    <setting id="fanart-metadatautils" default="true"></setting>
+    <setting id="fanart-overeasy" default="true"></setting>
+    <setting id="fanart-premiumizer" default="true"></setting>
+    <setting id="fanart-realizer" default="true"></setting>
+    <setting id="fanart-scrubs" default="true"></setting>
+    <setting id="fanart-venom" default="true"></setting>
+    <setting id="fanart-yoda" default="true"></setting>
+    <setting id="flixnet" default="true"></setting>
+    <setting id="gaia" default="true"></setting>
+    <setting id="gaiapm" default="true"></setting>
+    <setting id="gaiard" default="true"></setting>
+    <setting id="genesisreborn" default="true"></setting>
+    <setting id="imdb-covenant" default="true"></setting>
+    <setting id="imdb-exodus" default="true"></setting>
+    <setting id="imdb-exodusredux" default="true"></setting>
+    <setting id="imdb-flixnet" default="true"></setting>
+    <setting id="imdb-gaia" default="true"></setting>
+    <setting id="imdb-genesisreborn" default="true"></setting>
+    <setting id="imdb-incursion" default="true"></setting>
+    <setting id="imdb-lastship" default="true"></setting>
+    <setting id="imdb-overeasy" default="true"></setting>
+    <setting id="imdb-placenta" default="true"></setting>
+    <setting id="imdb-premiumizer" default="true"></setting>
+    <setting id="imdb-realizer" default="true"></setting>
+    <setting id="imdb-scrubs" default="true"></setting>
+    <setting id="imdb-venom" default="true"></setting>
+    <setting id="imdb-yoda" default="true"></setting>
+    <setting id="includeall">true</setting>
+    <setting id="includecovenant">true</setting>
+    <setting id="includeexodus">true</setting>
+    <setting id="includeexodusredux">true</setting>
+    <setting id="includeflixnet">true</setting>
+    <setting id="includegaia">true</setting>
+    <setting id="includegenesisreborn">true</setting>
+    <setting id="includeincursion">true</setting>
+    <setting id="includelastship">true</setting>
+    <setting id="includeovereasy">true</setting>
+    <setting id="includeplacenta">true</setting>
+    <setting id="includescrubs">true</setting>
+    <setting id="includeseren">true</setting>
+    <setting id="includevenom">true</setting>
+    <setting id="includevideo">true</setting>
+    <setting id="includeyoda">true</setting>
+    <setting id="incursion" default="true"></setting>
+    <setting id="installed" default="true">false</setting>
+    <setting id="installmethod">2</setting>
+    <setting id="keepadvanced" default="true">false</setting>
+    <setting id="keepdebrid" default="true">false</setting>
+    <setting id="keepfavourites" default="true">false</setting>
+    <setting id="keeplogin" default="true">false</setting>
+    <setting id="keepplayercore" default="true">false</setting>
+    <setting id="keepprofiles" default="true">false</setting>
+    <setting id="keeprepos" default="true">false</setting>
+    <setting id="keepsources" default="true">false</setting>
+    <setting id="keepsuper" default="true">false</setting>
+    <setting id="keeptrakt" default="true">false</setting>
+    <setting id="keepwhitelist" default="true">false</setting>
+    <setting id="kitsu-wonderfulsubs" default="true"></setting>
+    <setting id="kodi17iscrap" default="true"></setting>
+    <setting id="lastbuildcheck">2022-03-12</setting>
+    <setting id="lastship" default="true"></setting>
+    <setting id="latestversion">1.9.9</setting>
+    <setting id="location-yahoo" default="true"></setting>
+    <setting id="login-eis" default="true"></setting>
+    <setting id="login-iagl" default="true"></setting>
+    <setting id="login-netflix" default="true"></setting>
+    <setting id="login-opensubsbyopensubs" default="true"></setting>
+    <setting id="login-opensubtitles" default="true"></setting>
+    <setting id="login-orion" default="true"></setting>
+    <setting id="loginlastsave" default="true"></setting>
+    <setting id="mal-wonderfulsubs" default="true"></setting>
+    <setting id="nextautocleanup">2022-03-12</setting>
+    <setting id="nextcleandate">2022-03-13</setting>
+    <setting id="notedismiss">true</setting>
+    <setting id="noteid">44</setting>
+    <setting id="notify" default="true">false</setting>
+    <setting id="oldlog" default="true">false</setting>
+    <setting id="omdb-metadatautils" default="true"></setting>
+    <setting id="omdb-metahandler" default="true"></setting>
+    <setting id="overeasy" default="true"></setting>
+    <setting id="path" default="true"></setting>
+    <setting id="placenta" default="true"></setting>
+    <setting id="pmzer" default="true"></setting>
+    <setting id="premiumizer" default="true"></setting>
+    <setting id="pvrclient" default="true"></setting>
+    <setting id="realizer" default="true"></setting>
+    <setting id="rompath" default="true"></setting>
+    <setting id="rurlpm" default="true"></setting>
+    <setting id="rurlrd" default="true"></setting>
+    <setting id="scrubs" default="true"></setting>
+    <setting id="seperate" default="true">false</setting>
+    <setting id="seren" default="true"></setting>
+    <setting id="serenpm" default="true"></setting>
+    <setting id="serenrd" default="true"></setting>
+    <setting id="show15" default="true">false</setting>
+    <setting id="show16" default="true">false</setting>
+    <setting id="show17" default="true">false</setting>
+    <setting id="show18">true</setting>
+    <setting id="show19">false</setting>
+    <setting id="showmaint" default="true">false</setting>
+    <setting id="tmdb-covenant" default="true"></setting>
+    <setting id="tmdb-eis" default="true"></setting>
+    <setting id="tmdb-exodus" default="true"></setting>
+    <setting id="tmdb-exodusredux" default="true"></setting>
+    <setting id="tmdb-flixnet" default="true"></setting>
+    <setting id="tmdb-gaia" default="true"></setting>
+    <setting id="tmdb-genesisreborn" default="true"></setting>
+    <setting id="tmdb-incursion" default="true"></setting>
+    <setting id="tmdb-lastship" default="true"></setting>
+    <setting id="tmdb-metadatautils" default="true"></setting>
+    <setting id="tmdb-overeasy" default="true"></setting>
+    <setting id="tmdb-placenta" default="true"></setting>
+    <setting id="tmdb-premiumizer" default="true"></setting>
+    <setting id="tmdb-realizer" default="true"></setting>
+    <setting id="tmdb-scrubs" default="true"></setting>
+    <setting id="tmdb-seren" default="true"></setting>
+    <setting id="tmdb-venom" default="true"></setting>
+    <setting id="tmdb-wrp-metaplayer" default="true"></setting>
+    <setting id="tmdb-yoda" default="true"></setting>
+    <setting id="trakt" default="true"></setting>
+    <setting id="trakt-seren" default="true"></setting>
+    <setting id="trakt-wrp-metaplayer" default="true"></setting>
+    <setting id="traktlastsave" default="true"></setting>
+    <setting id="tvdb-metahandler" default="true"></setting>
+    <setting id="tvdb-premiumizer" default="true"></setting>
+    <setting id="tvdb-realizer" default="true"></setting>
+    <setting id="tvdb-seren" default="true"></setting>
+    <setting id="tvdb-wrp-metaplayer" default="true"></setting>
+    <setting id="urlpm" default="true"></setting>
+    <setting id="urlrd" default="true"></setting>
+    <setting id="venom" default="true"></setting>
+    <setting id="viewType">50</setting>
+    <setting id="wizard1name" default="true"></setting>
+    <setting id="wizard1url" default="true"></setting>
+    <setting id="wizard2name" default="true"></setting>
+    <setting id="wizard2url" default="true"></setting>
+    <setting id="wizard3name" default="true"></setting>
+    <setting id="wizard3url" default="true"></setting>
+    <setting id="wizardlog">true</setting>
+    <setting id="wizlog" default="true">false</setting>
+    <setting id="wizlogcleanby">1</setting>
+    <setting id="wizlogcleandays">2</setting>
+    <setting id="wizlogcleanlines">2</setting>
+    <setting id="wizlogcleansize">1</setting>
+    <setting id="wrp-metaplayer" default="true"></setting>
+    <setting id="ws-wonderfulsubs" default="true"></setting>
+    <setting id="yoda" default="true"></setting>
+</settings>
