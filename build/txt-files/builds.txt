@@ -3,7 +3,7 @@
 ############################ KODI 18 BUILDS ############################
 
 name="18.9Mady"
-version="1.5"
+version="1.6"
 url="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.zip"
 minor="http://"
 gui="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady_guisettings.zip"
