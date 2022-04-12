@@ -3,7 +3,7 @@
 ############################ KODI 18 BUILDS ############################
 
 name="18.9Mady"
-version="1.8"
+version="1.9"
 url="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.zip"
 minor="http://"
 gui="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady_guisettings.zip"
@@ -15,6 +15,10 @@ preview="https://youtu.be/VNqiZdC9TTg"
 adult="no"
 info="https://raw.githubusercontent.com/yvesniessen/repository.mad-build/master/build/builds/18.9Mady.txt"
 description="
+v1.9:
+ - added tvone1112
+ - added radio.de
+ - optimized skin
 v1.8: 
  - super favourites
 v1.7: 
