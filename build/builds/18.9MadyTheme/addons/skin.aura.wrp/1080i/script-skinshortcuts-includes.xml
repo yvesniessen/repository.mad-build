@@ -10,18 +10,22 @@
 			<property name="labelID">plugin.video.wrp-metaplayer/search</property>
 			<property name="defaultID">search</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Bald erscheinende Filme</property>
+			<property name="widgetName">Bald erscheinende Filme</property>
 			<property name="widgetType">movies</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=upcomingmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRPInfo - Derzeit ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1">Derzeit ausgestrahlte TV Serien</property>
 			<property name="widgetType.Widget1">tvshows</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=onairtvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Bald erscheinende Filme</property>
+			<property name="widgetNameName">Bald erscheinende Filme</property>
+			<property name="widgetName.Widget1.name">Derzeit ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1Name">Derzeit ausgestrahlte TV Serien</property>
 			<onclick>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/search",return)</onclick>
 			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/search",return)</property>
 			<property name="list">plugin://plugin.video.wrp-metaplayer/search</property>
@@ -39,12 +43,24 @@
 			<property name="labelID">live-tv</property>
 			<property name="defaultID">livetv</property>
 			<property name="widget">AllChannels</property>
-			<property name="widgetName">Alle Kanäle</property>
+			<property name="widgetName">TV</property>
 			<property name="widgetType" />
 			<property name="widgetTarget">pvr</property>
 			<property name="widgetPath">pvr://channels/tv/*</property>
 			<property name="WidgetAspect">Quadrat</property>
 			<property name="Poster">Poster</property>
+			<property name="Bald erscheinende Filme">TV</property>
+			<property name="Bald erscheinende Filme.name">TV</property>
+			<property name="Bald erscheinende FilmeName">TV</property>
+			<property name="widgetName.Widget1">STREAMS</property>
+			<property name="widgetName.Widget1.name">Streams</property>
+			<property name="widgetName.Widget1Name">Streams</property>
+			<property name="widgetName.name">TV</property>
+			<property name="widgetNameName">TV</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetType.Widget1">videos</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.tvone1112/list_channels/23?reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<visible>[System.HasPVRAddon] + [PVR.HasTVChannels]</visible>
 			<onclick>ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
@@ -64,10 +80,10 @@
 			<property name="defaultID">plugin.video.wrp-metaplayer/movies</property>
 			<property name="widget">Addon</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Derzeit im Kino</property>
+			<property name="widgetName">Derzeit im Kino</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=incinemamovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widgetTarget">videos</property>
-			<property name="widgetName.Widget1">WRPInfo - Populäre Filme</property>
+			<property name="widgetName.Widget1">Populäre Filme</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=popularmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetType">movies</property>
@@ -76,6 +92,10 @@
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Derzeit im Kino</property>
+			<property name="widgetNameName">Derzeit im Kino</property>
+			<property name="widgetName.Widget1.name">Populäre Filme</property>
+			<property name="widgetName.Widget1Name">Populäre Filme</property>
 			<onclick>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies",return)</onclick>
 			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies",return)</property>
 			<property name="list">plugin://plugin.video.wrp-metaplayer/movies</property>
@@ -86,6 +106,72 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
+			<label>Serien</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>image://special://home/addons%5cplugin.video.wrp-metaplayer%5cresources%5cmedia%5ctv.png/</thumb>
+			<property name="labelID">plugin.video.wrp-metaplayer/tv</property>
+			<property name="defaultID">plugin.video.wrp-metaplayer/tv</property>
+			<property name="widget">Addon</property>
+			<property name="widget">Addon</property>
+			<property name="widgetName">Populäre TV Serien</property>
+			<property name="widgetPath">plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget">videos</property>
+			<property name="widgetAspect">$LOCALIZE[31038]</property>
+			<property name="widgetName.Widget1">Heute ausgestrahlte TV Serien</property>
+			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetType">tvshows</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetType.Widget1">tvshows</property>
+			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Populäre TV Serien</property>
+			<property name="widgetNameName">Populäre TV Serien</property>
+			<property name="widgetName.Widget1.name">Heute ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1Name">Heute ausgestrahlte TV Serien</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</property>
+			<property name="list">plugin://plugin.video.wrp-metaplayer/tv</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+			<property name="group">mainmenu</property>
+			<property name="hasSubmenu">True</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<label>Kids</label>
+			<label2>Benutzerdefinierte Einträge</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>image://special://home/addons%5cplugin.video.KidsTube%5cicon.png/</thumb>
+			<property name="labelID">kids</property>
+			<property name="defaultID">plugin.video.KidsTube</property>
+			<property name="widget">Addon</property>
+			<property name="widgetName">Familie</property>
+			<property name="widgetType">movies</property>
+			<property name="widgetTarget">videos</property>
+			<property name="widgetPath">plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="WidgetAspect">Landschaft</property>
+			<property name="Poster">Poster</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetName.Widget1">Animation</property>
+			<property name="widgetType.Widget1">movies</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.wrp-metaplayer/movies/genre/16/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Familie</property>
+			<property name="widgetNameName">Familie</property>
+			<property name="widgetName.Widget1.name">Animation</property>
+			<property name="widgetName.Widget1Name">Animation</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</property>
+			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="submenuVisibility">kids</property>
+			<property name="group">mainmenu</property>
+			<property name="hasSubmenu">True</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
 			<label>Musik</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -100,64 +186,6 @@
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">True</property>
 		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<label>Serien</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>image://special://home/addons%5cplugin.video.wrp-metaplayer%5cresources%5cmedia%5ctv.png/</thumb>
-			<property name="labelID">plugin.video.wrp-metaplayer/tv</property>
-			<property name="defaultID">plugin.video.wrp-metaplayer/tv</property>
-			<property name="widget">Addon</property>
-			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Populäre TV Serien</property>
-			<property name="widgetPath">plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="widgetTarget">videos</property>
-			<property name="widgetAspect">$LOCALIZE[31038]</property>
-			<property name="widgetName.Widget1">WRPInfo - Heute ausgestrahlte TV Serien</property>
-			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="widgetTarget.Widget1">videos</property>
-			<property name="widgetType">tvshows</property>
-			<property name="widget.Widget1">Addon</property>
-			<property name="widgetType.Widget1">tvshows</property>
-			<property name="WidgetAspect.Widget1">Landschaft</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</property>
-			<property name="list">plugin://plugin.video.wrp-metaplayer/tv</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-			<property name="group">mainmenu</property>
-			<property name="hasSubmenu">True</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<label>Kids</label>
-			<label2>Benutzerdefinierte Einträge</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>image://special://home/addons%5cplugin.video.KidsTube%5cicon.png/</thumb>
-			<property name="labelID">kids</property>
-			<property name="defaultID">plugin.video.KidsTube</property>
-			<property name="widget">Addon</property>
-			<property name="widgetName">WRP-MetaPlayer - Familie</property>
-			<property name="widgetType">movies</property>
-			<property name="widgetTarget">videos</property>
-			<property name="widgetPath">plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="WidgetAspect">Landschaft</property>
-			<property name="Poster">Poster</property>
-			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRP-MetaPlayer - Animation</property>
-			<property name="widgetType.Widget1">movies</property>
-			<property name="widgetTarget.Widget1">videos</property>
-			<property name="widgetPath.Widget1">plugin://plugin.video.wrp-metaplayer/movies/genre/16/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="WidgetAspect.Widget1">Landschaft</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</property>
-			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">kids</property>
-			<property name="group">mainmenu</property>
-			<property name="hasSubmenu">True</property>
-		</item>
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
 			<label>Favoriten</label>
@@ -167,18 +195,22 @@
 			<property name="labelID">plugin.program.super.favourites</property>
 			<property name="defaultID">plugin.program.super.favourites</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Meine Filme (Bibliothek)</property>
+			<property name="widgetName">Meine Filme (Bibliothek)</property>
 			<property name="widgetType">videos</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=libraryallmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRPInfo - Meine Fernsehsendungen (Bibliothek)</property>
+			<property name="widgetName.Widget1">Meine Fernsehsendungen (Bibliothek)</property>
 			<property name="widgetType.Widget1">videos</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=libraryalltvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Meine Filme (Bibliothek)</property>
+			<property name="widgetNameName">Meine Filme (Bibliothek)</property>
+			<property name="widgetName.Widget1.name">Meine Fernsehsendungen (Bibliothek)</property>
+			<property name="widgetName.Widget1Name">Meine Fernsehsendungen (Bibliothek)</property>
 			<onclick>ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</onclick>
 			<property name="path">ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</property>
 			<property name="list">plugin://plugin.program.super.favourites</property>
@@ -217,7 +249,7 @@
 			<property name="labelID">wrp-lounge</property>
 			<property name="defaultID" />
 			<property name="widget">addon</property>
-			<property name="widgetName">1037</property>
+			<property name="widgetName">Video</property>
 			<property name="widgetType">video</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">addons://sources/video/</property>
@@ -226,11 +258,8 @@
 			<property name="widgetType.Widget1">program</property>
 			<property name="widgetTarget.Widget1">programs</property>
 			<property name="widgetPath.Widget1">addons://sources/executable/</property>
-			<property name="widget.Widget2">addon</property>
-			<property name="widgetName.Widget2">1038</property>
-			<property name="widgetType.Widget2">music</property>
-			<property name="widgetTarget.Widget2">music</property>
-			<property name="widgetPath.Widget2">addons://sources/audio/</property>
+			<property name="widgetName.name">Video</property>
+			<property name="widgetNameName">Video</property>
 			<onclick>ActivateWindow(Settings)</onclick>
 			<property name="path">ActivateWindow(Settings)</property>
 			<property name="list">Settings</property>
@@ -269,11 +298,8 @@
 			<thumb>special://skin/extras/icons/amazon.png</thumb>
 			<property name="labelID">suche</property>
 			<property name="defaultID" />
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
 			<onclick>noop</onclick>
-			<property name="path">noop</property>
-			<property name="list">noop</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -285,11 +311,8 @@
 			<thumb>special://skin/extras/icons/exodus.png</thumb>
 			<property name="labelID">suche--0</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.exodus/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -301,11 +324,8 @@
 			<thumb>special://skin/extras/icons/lastship.png</thumb>
 			<property name="labelID">suche--1</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.lastship/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -317,11 +337,8 @@
 			<thumb>special://skin/extras/icons/netflix.png</thumb>
 			<property name="labelID">plugin.video.netflix</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</property>
-			<property name="list">plugin://plugin.video.netflix</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -382,11 +399,8 @@
 			<thumb>special://skin/extras/icons/tvguide.png</thumb>
 			<property name="labelID">plugin.video.ttg</property>
 			<property name="defaultID">plugin.video.ttg</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</property>
-			<property name="list">plugin://plugin.video.ttg</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),live-tv)</visible>
-			<property name="group">live-tv</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),live-tv)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -537,102 +551,6 @@
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
 			<property name="mainmenuid">4</property>
-			<label>VevoTube</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/vevo.png</thumb>
-			<property name="labelID">plugin.video.VevoTube</property>
-			<property name="defaultID">plugin.video.VevoTube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</property>
-			<property name="list">plugin://plugin.video.VevoTube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">4</property>
-			<label>Radio</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/radio.png</thumb>
-			<property name="labelID">plugin.audio.radio_de</property>
-			<property name="defaultID">plugin.audio.radio_de</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
-			<property name="list">plugin://plugin.audio.radio_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">4</property>
-			<label>You Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/tvguide.png</thumb>
-			<property name="labelID">plugin.video.YouMusic</property>
-			<property name="defaultID">plugin.video.YouMusic</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</property>
-			<property name="list">plugin://plugin.video.YouMusic</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">4</property>
-			<label>Spotify</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/spotify.png</thumb>
-			<property name="labelID">spotify</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</property>
-			<property name="list">plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">4</property>
-			<label>House Mixes</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/cd.png</thumb>
-			<property name="labelID">plugin.audio.housemixes</property>
-			<property name="defaultID">plugin.audio.housemixes</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</property>
-			<property name="list">plugin://plugin.audio.housemixes</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">4</property>
-			<label>Youtube Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/youtube.png</thumb>
-			<property name="labelID">plugin.video.spotitube</property>
-			<property name="defaultID">plugin.video.spotitube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
-			<property name="list">plugin://plugin.video.spotitube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="1">
-			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">5</property>
 			<label>Favoriten</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -648,7 +566,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>Alle Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -664,7 +582,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>FilmPalast.to</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -680,7 +598,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>HD Filme Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -696,7 +614,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>SerienStream</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -712,7 +630,7 @@
 		</item>
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KIKA+</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -728,7 +646,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KinderTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -744,7 +662,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KidsTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -760,7 +678,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Nickelodeon.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -776,7 +694,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>PoKéMoN</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -792,7 +710,7 @@
 		</item>
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Sesamstrasse.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -808,7 +726,7 @@
 		</item>
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Tv Sendungen</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -820,6 +738,90 @@
 			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848</property>
 			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),kids)</visible>
 			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>VevoTube</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/vevo.png</thumb>
+			<property name="labelID">plugin.video.VevoTube</property>
+			<property name="defaultID">plugin.video.VevoTube</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>Radio</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/radio.png</thumb>
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
+			<property name="list">plugin://plugin.audio.radio_de</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<property name="group">musik</property>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">6</property>
+			<label>You Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/tvguide.png</thumb>
+			<property name="labelID">plugin.video.YouMusic</property>
+			<property name="defaultID">plugin.video.YouMusic</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">6</property>
+			<label>Spotify</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/spotify.png</thumb>
+			<property name="labelID">spotify</property>
+			<property name="defaultID" />
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">6</property>
+			<label>House Mixes</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/cd.png</thumb>
+			<property name="labelID">plugin.audio.housemixes</property>
+			<property name="defaultID">plugin.audio.housemixes</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">6</property>
+			<label>Youtube Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/youtube.png</thumb>
+			<property name="labelID">plugin.video.spotitube</property>
+			<property name="defaultID">plugin.video.spotitube</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
+			<property name="list">plugin://plugin.video.spotitube</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),musik)</visible>
+			<property name="group">musik</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="1">
@@ -928,11 +930,8 @@
 			<thumb>special://skin/extras/icons/years.png</thumb>
 			<property name="labelID">plugin.video.chefkoch_de</property>
 			<property name="defaultID">plugin.video.chefkoch_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</property>
-			<property name="list">plugin://plugin.video.chefkoch_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -1008,11 +1007,8 @@
 			<thumb>special://skin/extras/icons/soccer.png</thumb>
 			<property name="labelID">plugin.video.skysport.de</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</property>
-			<property name="list">plugin://plugin.video.skysport.de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -1024,11 +1020,8 @@
 			<thumb>special://skin/extras/icons/basketball.png</thumb>
 			<property name="labelID">plugin.video.sportschau</property>
 			<property name="defaultID">programs</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</property>
-			<property name="list">plugin://plugin.video.sportschau</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Container(300).ListItem.Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="1">
@@ -1398,18 +1391,22 @@
 			<property name="labelID">plugin.video.wrp-metaplayer/search</property>
 			<property name="defaultID">search</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Bald erscheinende Filme</property>
+			<property name="widgetName">Bald erscheinende Filme</property>
 			<property name="widgetType">movies</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=upcomingmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRPInfo - Derzeit ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1">Derzeit ausgestrahlte TV Serien</property>
 			<property name="widgetType.Widget1">tvshows</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=onairtvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Bald erscheinende Filme</property>
+			<property name="widgetNameName">Bald erscheinende Filme</property>
+			<property name="widgetName.Widget1.name">Derzeit ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1Name">Derzeit ausgestrahlte TV Serien</property>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/search",return)</onclick>
 			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/search",return)</property>
 			<property name="list">plugin://plugin.video.wrp-metaplayer/search</property>
@@ -1428,11 +1425,8 @@
 			<thumb>special://skin/extras/icons/amazon.png</thumb>
 			<property name="labelID">suche</property>
 			<property name="defaultID" />
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
 			<onclick>noop</onclick>
-			<property name="path">noop</property>
-			<property name="list">noop</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">plugin-video-wrp-metaplayer-search</property>
 		</item>
@@ -1445,11 +1439,8 @@
 			<thumb>special://skin/extras/icons/exodus.png</thumb>
 			<property name="labelID">suche--0</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.exodus/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">plugin-video-wrp-metaplayer-search</property>
 		</item>
@@ -1462,11 +1453,8 @@
 			<thumb>special://skin/extras/icons/lastship.png</thumb>
 			<property name="labelID">suche--1</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.lastship/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">plugin-video-wrp-metaplayer-search</property>
 		</item>
@@ -1479,11 +1467,8 @@
 			<thumb>special://skin/extras/icons/netflix.png</thumb>
 			<property name="labelID">plugin.video.netflix</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</property>
-			<property name="list">plugin://plugin.video.netflix</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">plugin-video-wrp-metaplayer-search</property>
 		</item>
@@ -1530,12 +1515,24 @@
 			<property name="labelID">live-tv</property>
 			<property name="defaultID">livetv</property>
 			<property name="widget">AllChannels</property>
-			<property name="widgetName">Alle Kanäle</property>
+			<property name="widgetName">TV</property>
 			<property name="widgetType" />
 			<property name="widgetTarget">pvr</property>
 			<property name="widgetPath">pvr://channels/tv/*</property>
 			<property name="WidgetAspect">Quadrat</property>
 			<property name="Poster">Poster</property>
+			<property name="Bald erscheinende Filme">TV</property>
+			<property name="Bald erscheinende Filme.name">TV</property>
+			<property name="Bald erscheinende FilmeName">TV</property>
+			<property name="widgetName.Widget1">STREAMS</property>
+			<property name="widgetName.Widget1.name">Streams</property>
+			<property name="widgetName.Widget1Name">Streams</property>
+			<property name="widgetName.name">TV</property>
+			<property name="widgetNameName">TV</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetType.Widget1">videos</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.tvone1112/list_channels/23?reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<visible>[System.HasPVRAddon] + [PVR.HasTVChannels]</visible>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),live-tv)">ActivateWindow(TVChannels)</onclick>
 			<property name="path">ActivateWindow(TVChannels)</property>
@@ -1573,11 +1570,8 @@
 			<thumb>special://skin/extras/icons/tvguide.png</thumb>
 			<property name="labelID">plugin.video.ttg</property>
 			<property name="defaultID">plugin.video.ttg</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</property>
-			<property name="list">plugin://plugin.video.ttg</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),live-tv)</visible>
-			<property name="group">live-tv</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),live-tv)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">live-tv</property>
 		</item>
@@ -1609,10 +1603,10 @@
 			<property name="defaultID">plugin.video.wrp-metaplayer/movies</property>
 			<property name="widget">Addon</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Derzeit im Kino</property>
+			<property name="widgetName">Derzeit im Kino</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=incinemamovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widgetTarget">videos</property>
-			<property name="widgetName.Widget1">WRPInfo - Populäre Filme</property>
+			<property name="widgetName.Widget1">Populäre Filme</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=popularmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetType">movies</property>
@@ -1621,6 +1615,10 @@
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Derzeit im Kino</property>
+			<property name="widgetNameName">Derzeit im Kino</property>
+			<property name="widgetName.Widget1.name">Populäre Filme</property>
+			<property name="widgetName.Widget1Name">Populäre Filme</property>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-movies)">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies",return)</onclick>
 			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies",return)</property>
 			<property name="list">plugin://plugin.video.wrp-metaplayer/movies</property>
@@ -1768,6 +1766,278 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
+			<label>Serien</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>image://special://home/addons%5cplugin.video.wrp-metaplayer%5cresources%5cmedia%5ctv.png/</thumb>
+			<property name="labelID">plugin.video.wrp-metaplayer/tv</property>
+			<property name="defaultID">plugin.video.wrp-metaplayer/tv</property>
+			<property name="widget">Addon</property>
+			<property name="widget">Addon</property>
+			<property name="widgetName">Populäre TV Serien</property>
+			<property name="widgetPath">plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget">videos</property>
+			<property name="widgetAspect">$LOCALIZE[31038]</property>
+			<property name="widgetName.Widget1">Heute ausgestrahlte TV Serien</property>
+			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetType">tvshows</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetType.Widget1">tvshows</property>
+			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Populäre TV Serien</property>
+			<property name="widgetNameName">Populäre TV Serien</property>
+			<property name="widgetName.Widget1.name">Heute ausgestrahlte TV Serien</property>
+			<property name="widgetName.Widget1Name">Heute ausgestrahlte TV Serien</property>
+			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</property>
+			<property name="list">plugin://plugin.video.wrp-metaplayer/tv</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+			<property name="group">mainmenu</property>
+			<property name="hasSubmenu">True</property>
+			<onclick>SetProperty(submenuVisibility,plugin-video-wrp-metaplayer-tv,10000)</onclick>
+		</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">4</property>
+			<label>Favoriten</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/favourites.png</thumb>
+			<property name="labelID">favoriten</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=",return)</property>
+			<property name="list">plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
+			<property name="group">plugin.video.wrp-metaplayer/tv</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+		</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">4</property>
+			<label>Alle Serien</label>
+			<label2>Benutzerdefinierte Einträge</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/livetv.png</thumb>
+			<property name="labelID">alleserien</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1",return)</property>
+			<property name="list">plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
+			<property name="group">plugin.video.wrp-metaplayer/tv</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+		</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">4</property>
+			<label>FilmPalast.to</label>
+			<label2>Benutzerdefinierte Einträge</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/livetv.png</thumb>
+			<property name="labelID">filmpalast-to</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview",return)</property>
+			<property name="list">plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
+			<property name="group">plugin.video.wrp-metaplayer/tv</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+		</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">4</property>
+			<label>HD Filme Serien</label>
+			<label2>Benutzerdefinierte Einträge</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/livetv.png</thumb>
+			<property name="labelID">hdfilmeserien</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc",return)</property>
+			<property name="list">plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
+			<property name="group">plugin.video.wrp-metaplayer/tv</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">4</property>
+			<label>SerienStream</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/livetv.png</thumb>
+			<property name="labelID">serienstream</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav",return)</property>
+			<property name="list">plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
+			<property name="group">plugin.video.wrp-metaplayer/tv</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<label>Kids</label>
+			<label2>Benutzerdefinierte Einträge</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>image://special://home/addons%5cplugin.video.KidsTube%5cicon.png/</thumb>
+			<property name="labelID">kids</property>
+			<property name="defaultID">plugin.video.KidsTube</property>
+			<property name="widget">Addon</property>
+			<property name="widgetName">Familie</property>
+			<property name="widgetType">movies</property>
+			<property name="widgetTarget">videos</property>
+			<property name="widgetPath">plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="WidgetAspect">Landschaft</property>
+			<property name="Poster">Poster</property>
+			<property name="widget.Widget1">Addon</property>
+			<property name="widgetName.Widget1">Animation</property>
+			<property name="widgetType.Widget1">movies</property>
+			<property name="widgetTarget.Widget1">videos</property>
+			<property name="widgetPath.Widget1">plugin://plugin.video.wrp-metaplayer/movies/genre/16/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
+			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Familie</property>
+			<property name="widgetNameName">Familie</property>
+			<property name="widgetName.Widget1.name">Animation</property>
+			<property name="widgetName.Widget1Name">Animation</property>
+			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),kids)">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</property>
+			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="submenuVisibility">kids</property>
+			<property name="group">mainmenu</property>
+			<property name="hasSubmenu">True</property>
+			<onclick>SetProperty(submenuVisibility,kids,10000)</onclick>
+		</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">5</property>
+			<label>KIKA+</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/girl.png</thumb>
+			<property name="labelID">plugin.video.kika_de</property>
+			<property name="defaultID">plugin.video.kika_de</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.kika_de",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.kika_de",return)</property>
+			<property name="list">plugin://plugin.video.kika_de</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">5</property>
+			<label>KinderTube</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/babyboy.png</thumb>
+			<property name="labelID">kindertube</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html",return)</property>
+			<property name="list">plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">5</property>
+			<label>KidsTube</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/octo.png</thumb>
+			<property name="labelID">plugin.video.KidsTube</property>
+			<property name="defaultID">plugin.video.KidsTube</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.KidsTube",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.KidsTube",return)</property>
+			<property name="list">plugin://plugin.video.KidsTube</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">5</property>
+			<label>Nickelodeon.de</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/girl2.png</thumb>
+			<property name="labelID">plugin.video.nick_de</property>
+			<property name="defaultID">plugin.video.nick_de</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.nick_de",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.nick_de",return)</property>
+			<property name="list">plugin://plugin.video.nick_de</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">5</property>
+			<label>PoKéMoN</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/reddit.png</thumb>
+			<property name="labelID">pokemon</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg",return)</property>
+			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">5</property>
+			<label>Sesamstrasse.de</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/babygirl.png</thumb>
+			<property name="labelID">plugin.video.sesamstrasse_de</property>
+			<property name="defaultID">plugin.video.sesamstrasse_de</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sesamstrasse_de",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sesamstrasse_de",return)</property>
+			<property name="list">plugin://plugin.video.sesamstrasse_de</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">5</property>
+			<label>Tv Sendungen</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/tv.png</thumb>
+			<property name="labelID">tvsendungen</property>
+			<property name="defaultID" />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848",return)</property>
+			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
+			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+			<property name="submenuVisibility">kids</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
 			<label>Musik</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -1785,24 +2055,21 @@
 		</item>
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>VevoTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
 			<thumb>special://skin/extras/icons/vevo.png</thumb>
 			<property name="labelID">plugin.video.VevoTube</property>
 			<property name="defaultID">plugin.video.VevoTube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</property>
-			<property name="list">plugin://plugin.video.VevoTube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">musik</property>
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>Radio</label>
 			<label2>Musik Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -1819,58 +2086,49 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>You Music</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
 			<thumb>special://skin/extras/icons/tvguide.png</thumb>
 			<property name="labelID">plugin.video.YouMusic</property>
 			<property name="defaultID">plugin.video.YouMusic</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</property>
-			<property name="list">plugin://plugin.video.YouMusic</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">musik</property>
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>Spotify</label>
 			<label2>Musik Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
 			<thumb>special://skin/extras/icons/spotify.png</thumb>
 			<property name="labelID">spotify</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</property>
-			<property name="list">plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">musik</property>
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>House Mixes</label>
 			<label2>Musik Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
 			<thumb>special://skin/extras/icons/cd.png</thumb>
 			<property name="labelID">plugin.audio.housemixes</property>
 			<property name="defaultID">plugin.audio.housemixes</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</property>
-			<property name="list">plugin://plugin.audio.housemixes</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">musik</property>
 		</item>
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">4</property>
+			<property name="mainmenuid">6</property>
 			<label>Youtube Music</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -1885,270 +2143,6 @@
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">musik</property>
 		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<label>Serien</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>image://special://home/addons%5cplugin.video.wrp-metaplayer%5cresources%5cmedia%5ctv.png/</thumb>
-			<property name="labelID">plugin.video.wrp-metaplayer/tv</property>
-			<property name="defaultID">plugin.video.wrp-metaplayer/tv</property>
-			<property name="widget">Addon</property>
-			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Populäre TV Serien</property>
-			<property name="widgetPath">plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="widgetTarget">videos</property>
-			<property name="widgetAspect">$LOCALIZE[31038]</property>
-			<property name="widgetName.Widget1">WRPInfo - Heute ausgestrahlte TV Serien</property>
-			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="widgetTarget.Widget1">videos</property>
-			<property name="widgetType">tvshows</property>
-			<property name="widget.Widget1">Addon</property>
-			<property name="widgetType.Widget1">tvshows</property>
-			<property name="WidgetAspect.Widget1">Landschaft</property>
-			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</property>
-			<property name="list">plugin://plugin.video.wrp-metaplayer/tv</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-			<property name="group">mainmenu</property>
-			<property name="hasSubmenu">True</property>
-			<onclick>SetProperty(submenuVisibility,plugin-video-wrp-metaplayer-tv,10000)</onclick>
-		</item>
-		<item id="1">
-			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">5</property>
-			<label>Favoriten</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/favourites.png</thumb>
-			<property name="labelID">favoriten</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=",return)</property>
-			<property name="list">plugin://plugin.program.super.favourites/?label=Serien&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%5CSerien&amp;image=https%3A%2F%2Fs.to%2Fpublic%2Fimg%2Fcover%2Fsanctuary-waechter-der-kreaturen-stream-cover-MbxC71mRvWmvCLFSCFvtTVXqWXfiX1mJ_200x300.jpg%7CUser-Agent%3DMozilla%2F5.0+%28Windows+NT+6.3%3B+rv%3A36.0%29+Gecko%2F20100101+Firefox%2F36.0&amp;fanart=special%3A%2F%2Fhome%2Faddons%5Cplugin.video.xstream%5Cfanart.jpg&amp;content_type=</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/tv</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">5</property>
-			<label>Alle Serien</label>
-			<label2>Benutzerdefinierte Einträge</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/livetv.png</thumb>
-			<property name="labelID">alleserien</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1",return)</property>
-			<property name="list">plugin://plugin.video.xstream/?site=alleserien_com&amp;function=showEntries&amp;title=Neueste+Release&amp;sUrl=http%3A%2F%2Falleserien.com%2Fserien&amp;type=Alle&amp;sortBy=latest&amp;page=1</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/tv</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">5</property>
-			<label>FilmPalast.to</label>
-			<label2>Benutzerdefinierte Einträge</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/livetv.png</thumb>
-			<property name="labelID">filmpalast-to</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview",return)</property>
-			<property name="list">plugin://plugin.video.xstream/?site=filmpalast_to&amp;function=showEntries&amp;title=Serien&amp;sUrl=https%3A%2F%2Ffilmpalast.to%2Fserien%2Fview</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/tv</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-		</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">5</property>
-			<label>HD Filme Serien</label>
-			<label2>Benutzerdefinierte Einträge</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/livetv.png</thumb>
-			<property name="labelID">hdfilmeserien</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc",return)</property>
-			<property name="list">plugin://plugin.video.xstream/?site=hdfilme&amp;function=showEntries&amp;title=Update&amp;sUrl=https%3A%2F%2Fhdfilme.cc%2Fserien1%3Fsort%3Dtop%26sort_type%3Ddesc</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/tv</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">5</property>
-			<label>SerienStream</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/livetv.png</thumb>
-			<property name="labelID">serienstream</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav",return)</property>
-			<property name="list">plugin://plugin.video.xstream/?site=serienstream_to&amp;function=showValue&amp;title=A-Z&amp;sUrl=https%3A%2F%2Fserienstream.sx&amp;sCont=catalogNav</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-tv)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/tv</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">plugin-video-wrp-metaplayer-tv</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<label>Kids</label>
-			<label2>Benutzerdefinierte Einträge</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>image://special://home/addons%5cplugin.video.KidsTube%5cicon.png/</thumb>
-			<property name="labelID">kids</property>
-			<property name="defaultID">plugin.video.KidsTube</property>
-			<property name="widget">Addon</property>
-			<property name="widgetName">WRP-MetaPlayer - Familie</property>
-			<property name="widgetType">movies</property>
-			<property name="widgetTarget">videos</property>
-			<property name="widgetPath">plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="WidgetAspect">Landschaft</property>
-			<property name="Poster">Poster</property>
-			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRP-MetaPlayer - Animation</property>
-			<property name="widgetType.Widget1">movies</property>
-			<property name="widgetTarget.Widget1">videos</property>
-			<property name="widgetPath.Widget1">plugin://plugin.video.wrp-metaplayer/movies/genre/16/1/?reload=$INFO[Window(Home).Property(widgetreload)]</property>
-			<property name="WidgetAspect.Widget1">Landschaft</property>
-			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),kids)">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg",return)</property>
-			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2FkidsHaupt.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+Kidz+Zone+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fbilder%2Fkids.jpg</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="submenuVisibility">kids</property>
-			<property name="group">mainmenu</property>
-			<property name="hasSubmenu">True</property>
-			<onclick>SetProperty(submenuVisibility,kids,10000)</onclick>
-		</item>
-		<item id="1">
-			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">6</property>
-			<label>KIKA+</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/girl.png</thumb>
-			<property name="labelID">plugin.video.kika_de</property>
-			<property name="defaultID">plugin.video.kika_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.kika_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.kika_de",return)</property>
-			<property name="list">plugin://plugin.video.kika_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">6</property>
-			<label>KinderTube</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/babyboy.png</thumb>
-			<property name="labelID">kindertube</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html",return)</property>
-			<property name="list">plugin://plugin.video.xstream/?site=kindertube&amp;function=showEntries&amp;title=Alle+Filme&amp;sUrl=http%3A%2F%2Fwww.kindertube.de%2Falle-filme-und-serien.html</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">6</property>
-			<label>KidsTube</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/octo.png</thumb>
-			<property name="labelID">plugin.video.KidsTube</property>
-			<property name="defaultID">plugin.video.KidsTube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.KidsTube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.KidsTube",return)</property>
-			<property name="list">plugin://plugin.video.KidsTube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">6</property>
-			<label>Nickelodeon.de</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/girl2.png</thumb>
-			<property name="labelID">plugin.video.nick_de</property>
-			<property name="defaultID">plugin.video.nick_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.nick_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.nick_de",return)</property>
-			<property name="list">plugin://plugin.video.nick_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">6</property>
-			<label>PoKéMoN</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/reddit.png</thumb>
-			<property name="labelID">pokemon</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg",return)</property>
-			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Fpokemon2.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+PoK%C3%A9MoN+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FPokemon%2Ffanart.jpg</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">6</property>
-			<label>Sesamstrasse.de</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/babygirl.png</thumb>
-			<property name="labelID">plugin.video.sesamstrasse_de</property>
-			<property name="defaultID">plugin.video.sesamstrasse_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sesamstrasse_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sesamstrasse_de",return)</property>
-			<property name="list">plugin://plugin.video.sesamstrasse_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
-		<item id="7">
-			<property name="id">$NUMBER[7]</property>
-			<property name="mainmenuid">6</property>
-			<label>Tv Sendungen</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/tv.png</thumb>
-			<property name="labelID">tvsendungen</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848",return)</property>
-			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
-			<property name="group">kids</property>
-			<property name="isSubmenu">True</property>
-			<property name="submenuVisibility">kids</property>
-		</item>
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
 			<label>Favoriten</label>
@@ -2158,18 +2152,22 @@
 			<property name="labelID">plugin.program.super.favourites</property>
 			<property name="defaultID">plugin.program.super.favourites</property>
 			<property name="widget">Addon</property>
-			<property name="widgetName">WRPInfo - Meine Filme (Bibliothek)</property>
+			<property name="widgetName">Meine Filme (Bibliothek)</property>
 			<property name="widgetType">videos</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">plugin://script.wrpinfo?info=libraryallmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect">Landschaft</property>
 			<property name="Poster">Poster</property>
 			<property name="widget.Widget1">Addon</property>
-			<property name="widgetName.Widget1">WRPInfo - Meine Fernsehsendungen (Bibliothek)</property>
+			<property name="widgetName.Widget1">Meine Fernsehsendungen (Bibliothek)</property>
 			<property name="widgetType.Widget1">videos</property>
 			<property name="widgetTarget.Widget1">videos</property>
 			<property name="widgetPath.Widget1">plugin://script.wrpinfo?info=libraryalltvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]</property>
 			<property name="WidgetAspect.Widget1">Landschaft</property>
+			<property name="widgetName.name">Meine Filme (Bibliothek)</property>
+			<property name="widgetNameName">Meine Filme (Bibliothek)</property>
+			<property name="widgetName.Widget1.name">Meine Fernsehsendungen (Bibliothek)</property>
+			<property name="widgetName.Widget1Name">Meine Fernsehsendungen (Bibliothek)</property>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),plugin-program-super-favourites)">ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</onclick>
 			<property name="path">ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</property>
 			<property name="list">plugin://plugin.program.super.favourites</property>
@@ -2313,11 +2311,8 @@
 			<thumb>special://skin/extras/icons/years.png</thumb>
 			<property name="labelID">plugin.video.chefkoch_de</property>
 			<property name="defaultID">plugin.video.chefkoch_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</property>
-			<property name="list">plugin://plugin.video.chefkoch_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">lifestyle</property>
 		</item>
@@ -2398,11 +2393,8 @@
 			<thumb>special://skin/extras/icons/soccer.png</thumb>
 			<property name="labelID">plugin.video.skysport.de</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</property>
-			<property name="list">plugin://plugin.video.skysport.de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">lifestyle</property>
 		</item>
@@ -2415,11 +2407,8 @@
 			<thumb>special://skin/extras/icons/basketball.png</thumb>
 			<property name="labelID">plugin.video.sportschau</property>
 			<property name="defaultID">programs</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</property>
-			<property name="list">plugin://plugin.video.sportschau</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 			<property name="submenuVisibility">lifestyle</property>
 		</item>
@@ -2432,7 +2421,7 @@
 			<property name="labelID">wrp-lounge</property>
 			<property name="defaultID" />
 			<property name="widget">addon</property>
-			<property name="widgetName">1037</property>
+			<property name="widgetName">Video</property>
 			<property name="widgetType">video</property>
 			<property name="widgetTarget">videos</property>
 			<property name="widgetPath">addons://sources/video/</property>
@@ -2441,11 +2430,8 @@
 			<property name="widgetType.Widget1">program</property>
 			<property name="widgetTarget.Widget1">programs</property>
 			<property name="widgetPath.Widget1">addons://sources/executable/</property>
-			<property name="widget.Widget2">addon</property>
-			<property name="widgetName.Widget2">1038</property>
-			<property name="widgetType.Widget2">music</property>
-			<property name="widgetTarget.Widget2">music</property>
-			<property name="widgetPath.Widget2">addons://sources/audio/</property>
+			<property name="widgetName.name">Video</property>
+			<property name="widgetNameName">Video</property>
 			<onclick condition="String.IsEqual(Window(10000).Property(submenuVisibility),wrp-lounge)">ActivateWindow(Settings)</onclick>
 			<property name="path">ActivateWindow(Settings)</property>
 			<property name="list">Settings</property>
@@ -2617,11 +2603,8 @@
 			<thumb>special://skin/extras/icons/amazon.png</thumb>
 			<property name="labelID">suche</property>
 			<property name="defaultID" />
+			<visible>False</visible>
 			<onclick>noop</onclick>
-			<property name="path">noop</property>
-			<property name="list">noop</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -2633,11 +2616,8 @@
 			<thumb>special://skin/extras/icons/exodus.png</thumb>
 			<property name="labelID">suche--0</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.exodus/?action=searchNavigator</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -2649,11 +2629,8 @@
 			<thumb>special://skin/extras/icons/lastship.png</thumb>
 			<property name="labelID">suche--1</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.lastship/?action=searchNavigator</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -2665,11 +2642,8 @@
 			<thumb>special://skin/extras/icons/netflix.png</thumb>
 			<property name="labelID">plugin.video.netflix</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</property>
-			<property name="list">plugin://plugin.video.netflix</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -2715,11 +2689,8 @@
 			<thumb>special://skin/extras/icons/amazon.png</thumb>
 			<property name="labelID">suche</property>
 			<property name="defaultID" />
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
 			<onclick>noop</onclick>
-			<property name="path">noop</property>
-			<property name="list">noop</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="2">
@@ -2731,11 +2702,8 @@
 			<thumb>special://skin/extras/icons/exodus.png</thumb>
 			<property name="labelID">suche--0</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.exodus/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.exodus/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -2747,11 +2715,8 @@
 			<thumb>special://skin/extras/icons/lastship.png</thumb>
 			<property name="labelID">suche--1</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.lastship/?action=searchNavigator",return)</property>
-			<property name="list">plugin://plugin.video.lastship/?action=searchNavigator</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="4">
@@ -2763,11 +2728,8 @@
 			<thumb>special://skin/extras/icons/netflix.png</thumb>
 			<property name="labelID">plugin.video.netflix</property>
 			<property name="defaultID" />
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</property>
-			<property name="list">plugin://plugin.video.netflix</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
-			<property name="group">plugin.video.wrp-metaplayer/search</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-wrp-metaplayer-search)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="5">
@@ -2830,11 +2792,8 @@
 			<thumb>special://skin/extras/icons/tvguide.png</thumb>
 			<property name="labelID">plugin.video.ttg</property>
 			<property name="defaultID">plugin.video.ttg</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</property>
-			<property name="list">plugin://plugin.video.ttg</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">live-tv</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -2882,11 +2841,8 @@
 			<thumb>special://skin/extras/icons/tvguide.png</thumb>
 			<property name="labelID">plugin.video.ttg</property>
 			<property name="defaultID">plugin.video.ttg</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.ttg",return)</property>
-			<property name="list">plugin://plugin.video.ttg</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),live-tv)</visible>
-			<property name="group">live-tv</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),live-tv)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -3167,206 +3123,10 @@
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-musik">
-		<item id="1">
-			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">4</property>
-			<label>VevoTube</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/vevo.png</thumb>
-			<property name="labelID">plugin.video.VevoTube</property>
-			<property name="defaultID">plugin.video.VevoTube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</property>
-			<property name="list">plugin://plugin.video.VevoTube</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">4</property>
-			<label>Radio</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/radio.png</thumb>
-			<property name="labelID">plugin.audio.radio_de</property>
-			<property name="defaultID">plugin.audio.radio_de</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
-			<property name="list">plugin://plugin.audio.radio_de</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">4</property>
-			<label>You Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/tvguide.png</thumb>
-			<property name="labelID">plugin.video.YouMusic</property>
-			<property name="defaultID">plugin.video.YouMusic</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</property>
-			<property name="list">plugin://plugin.video.YouMusic</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">4</property>
-			<label>Spotify</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/spotify.png</thumb>
-			<property name="labelID">spotify</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</property>
-			<property name="list">plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">4</property>
-			<label>House Mixes</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/cd.png</thumb>
-			<property name="labelID">plugin.audio.housemixes</property>
-			<property name="defaultID">plugin.audio.housemixes</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</property>
-			<property name="list">plugin://plugin.audio.housemixes</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">4</property>
-			<label>Youtube Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/youtube.png</thumb>
-			<property name="labelID">plugin.video.spotitube</property>
-			<property name="defaultID">plugin.video.spotitube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
-			<property name="list">plugin://plugin.video.spotitube</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-	</include>
-	<include name="skinshortcuts-group-alt-musik">
-		<item id="1">
-			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">4</property>
-			<label>VevoTube</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/vevo.png</thumb>
-			<property name="labelID">plugin.video.VevoTube</property>
-			<property name="defaultID">plugin.video.VevoTube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.VevoTube",return)</property>
-			<property name="list">plugin://plugin.video.VevoTube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="2">
-			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">4</property>
-			<label>Radio</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/radio.png</thumb>
-			<property name="labelID">plugin.audio.radio_de</property>
-			<property name="defaultID">plugin.audio.radio_de</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
-			<property name="list">plugin://plugin.audio.radio_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="3">
-			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">4</property>
-			<label>You Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/tvguide.png</thumb>
-			<property name="labelID">plugin.video.YouMusic</property>
-			<property name="defaultID">plugin.video.YouMusic</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.YouMusic",return)</property>
-			<property name="list">plugin://plugin.video.YouMusic</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="4">
-			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">4</property>
-			<label>Spotify</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/spotify.png</thumb>
-			<property name="labelID">spotify</property>
-			<property name="defaultID" />
-			<onclick>ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=",return)</property>
-			<property name="list">plugin://plugin.video.spotitube/?url=&amp;mode=spotifyMain&amp;type=&amp;limit=</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="5">
-			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">4</property>
-			<label>House Mixes</label>
-			<label2>Musik Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/cd.png</thumb>
-			<property name="labelID">plugin.audio.housemixes</property>
-			<property name="defaultID">plugin.audio.housemixes</property>
-			<onclick>ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</onclick>
-			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.housemixes",return)</property>
-			<property name="list">plugin://plugin.audio.housemixes</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-		<item id="6">
-			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">4</property>
-			<label>Youtube Music</label>
-			<label2>Video Add-On</label2>
-			<icon>special://skin/extras/icons/addtile.png</icon>
-			<thumb>special://skin/extras/icons/youtube.png</thumb>
-			<property name="labelID">plugin.video.spotitube</property>
-			<property name="defaultID">plugin.video.spotitube</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
-			<property name="list">plugin://plugin.video.spotitube</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
-			<property name="group">musik</property>
-			<property name="isSubmenu">True</property>
-		</item>
-	</include>
 	<include name="skinshortcuts-group-plugin-video-wrp-metaplayer-tv">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>Favoriten</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3382,7 +3142,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>Alle Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3398,7 +3158,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>FilmPalast.to</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3414,7 +3174,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>HD Filme Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3430,7 +3190,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>SerienStream</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3448,7 +3208,7 @@
 	<include name="skinshortcuts-group-alt-plugin-video-wrp-metaplayer-tv">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>Favoriten</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3464,7 +3224,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>Alle Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3480,7 +3240,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>FilmPalast.to</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3496,7 +3256,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>HD Filme Serien</label>
 			<label2>Benutzerdefinierte Einträge</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3512,7 +3272,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">5</property>
+			<property name="mainmenuid">4</property>
 			<label>SerienStream</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3530,7 +3290,7 @@
 	<include name="skinshortcuts-group-kids">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KIKA+</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3546,7 +3306,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KinderTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3562,7 +3322,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KidsTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3578,7 +3338,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Nickelodeon.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3594,7 +3354,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>PoKéMoN</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3610,7 +3370,7 @@
 		</item>
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Sesamstrasse.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3626,7 +3386,7 @@
 		</item>
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Tv Sendungen</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3644,7 +3404,7 @@
 	<include name="skinshortcuts-group-alt-kids">
 		<item id="1">
 			<property name="id">$NUMBER[1]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KIKA+</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3660,7 +3420,7 @@
 		</item>
 		<item id="2">
 			<property name="id">$NUMBER[2]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KinderTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3676,7 +3436,7 @@
 		</item>
 		<item id="3">
 			<property name="id">$NUMBER[3]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>KidsTube</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3692,7 +3452,7 @@
 		</item>
 		<item id="4">
 			<property name="id">$NUMBER[4]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Nickelodeon.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3708,7 +3468,7 @@
 		</item>
 		<item id="5">
 			<property name="id">$NUMBER[5]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>PoKéMoN</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3724,7 +3484,7 @@
 		</item>
 		<item id="6">
 			<property name="id">$NUMBER[6]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Sesamstrasse.de</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3740,7 +3500,7 @@
 		</item>
 		<item id="7">
 			<property name="id">$NUMBER[7]</property>
-			<property name="mainmenuid">6</property>
+			<property name="mainmenuid">5</property>
 			<label>Tv Sendungen</label>
 			<label2>Video Add-On</label2>
 			<icon>special://skin/extras/icons/addtile.png</icon>
@@ -3752,6 +3512,178 @@
 			<property name="list">plugin://plugin.video.ghost.tv/?url=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FKids%2Fkidstvsendung.txt&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+purple%5D--%3E+%5BCOLOR+beige%5D%5BCOLOR+lightyellow%5D---+Tv+Sendungen+---%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=https%3A%2F%2Fvignette.wikia.nocookie.net%2Flogopedia%2Fimages%2F8%2F8c%2FTV_Kids_2017.jpg%2Frevision%2Flatest%3Fcb%3D20171215185848</property>
 			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),kids)</visible>
 			<property name="group">kids</property>
+			<property name="isSubmenu">True</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-musik">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>VevoTube</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/vevo.png</thumb>
+			<property name="labelID">plugin.video.VevoTube</property>
+			<property name="defaultID">plugin.video.VevoTube</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>Radio</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/radio.png</thumb>
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
+			<property name="list">plugin://plugin.audio.radio_de</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="group">musik</property>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">6</property>
+			<label>You Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/tvguide.png</thumb>
+			<property name="labelID">plugin.video.YouMusic</property>
+			<property name="defaultID">plugin.video.YouMusic</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">6</property>
+			<label>Spotify</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/spotify.png</thumb>
+			<property name="labelID">spotify</property>
+			<property name="defaultID" />
+			<visible>False</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">6</property>
+			<label>House Mixes</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/cd.png</thumb>
+			<property name="labelID">plugin.audio.housemixes</property>
+			<property name="defaultID">plugin.audio.housemixes</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">6</property>
+			<label>Youtube Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/youtube.png</thumb>
+			<property name="labelID">plugin.video.spotitube</property>
+			<property name="defaultID">plugin.video.spotitube</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
+			<property name="list">plugin://plugin.video.spotitube</property>
+			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
+			<property name="group">musik</property>
+			<property name="isSubmenu">True</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-musik">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>VevoTube</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/vevo.png</thumb>
+			<property name="labelID">plugin.video.VevoTube</property>
+			<property name="defaultID">plugin.video.VevoTube</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>Radio</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/radio.png</thumb>
+			<property name="labelID">plugin.audio.radio_de</property>
+			<property name="defaultID">plugin.audio.radio_de</property>
+			<onclick>ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</onclick>
+			<property name="path">ActivateWindow(Music,"plugin://plugin.audio.radio_de",return)</property>
+			<property name="list">plugin://plugin.audio.radio_de</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<property name="group">musik</property>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">6</property>
+			<label>You Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/tvguide.png</thumb>
+			<property name="labelID">plugin.video.YouMusic</property>
+			<property name="defaultID">plugin.video.YouMusic</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">6</property>
+			<label>Spotify</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/spotify.png</thumb>
+			<property name="labelID">spotify</property>
+			<property name="defaultID" />
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">6</property>
+			<label>House Mixes</label>
+			<label2>Musik Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/cd.png</thumb>
+			<property name="labelID">plugin.audio.housemixes</property>
+			<property name="defaultID">plugin.audio.housemixes</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<onclick>noop</onclick>
+			<property name="isSubmenu">True</property>
+		</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">6</property>
+			<label>Youtube Music</label>
+			<label2>Video Add-On</label2>
+			<icon>special://skin/extras/icons/addtile.png</icon>
+			<thumb>special://skin/extras/icons/youtube.png</thumb>
+			<property name="labelID">plugin.video.spotitube</property>
+			<property name="defaultID">plugin.video.spotitube</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</property>
+			<property name="list">plugin://plugin.video.spotitube</property>
+			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),musik)</visible>
+			<property name="group">musik</property>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
@@ -3946,11 +3878,8 @@
 			<thumb>special://skin/extras/icons/years.png</thumb>
 			<property name="labelID">plugin.video.chefkoch_de</property>
 			<property name="defaultID">plugin.video.chefkoch_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</property>
-			<property name="list">plugin://plugin.video.chefkoch_de</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">lifestyle</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -4026,11 +3955,8 @@
 			<thumb>special://skin/extras/icons/soccer.png</thumb>
 			<property name="labelID">plugin.video.skysport.de</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</property>
-			<property name="list">plugin://plugin.video.skysport.de</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">lifestyle</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -4042,11 +3968,8 @@
 			<thumb>special://skin/extras/icons/basketball.png</thumb>
 			<property name="labelID">plugin.video.sportschau</property>
 			<property name="defaultID">programs</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</property>
-			<property name="list">plugin://plugin.video.sportschau</property>
-			<visible>String.IsEqual(System.ProfileName,Master user)</visible>
-			<property name="group">lifestyle</property>
+			<visible>False</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
@@ -4077,11 +4000,8 @@
 			<thumb>special://skin/extras/icons/years.png</thumb>
 			<property name="labelID">plugin.video.chefkoch_de</property>
 			<property name="defaultID">plugin.video.chefkoch_de</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.chefkoch_de",return)</property>
-			<property name="list">plugin://plugin.video.chefkoch_de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="3">
@@ -4157,11 +4077,8 @@
 			<thumb>special://skin/extras/icons/soccer.png</thumb>
 			<property name="labelID">plugin.video.skysport.de</property>
 			<property name="defaultID">24001</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.skysport.de",return)</property>
-			<property name="list">plugin://plugin.video.skysport.de</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 		<item id="8">
@@ -4173,11 +4090,8 @@
 			<thumb>special://skin/extras/icons/basketball.png</thumb>
 			<property name="labelID">plugin.video.sportschau</property>
 			<property name="defaultID">programs</property>
-			<onclick>ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</onclick>
-			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.sportschau",return)</property>
-			<property name="list">plugin://plugin.video.sportschau</property>
-			<visible>[String.IsEqual(System.ProfileName,Master user)] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
-			<property name="group">lifestyle</property>
+			<visible>[False] + String.IsEqual(Window(10000).Property(submenuVisibility),lifestyle)</visible>
+			<onclick>noop</onclick>
 			<property name="isSubmenu">True</property>
 		</item>
 	</include>
@@ -4920,7 +4834,7 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=upcomingmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="WRPInfo - Bald erscheinende Filme" />
+			<param name="label" value="Bald erscheinende Filme" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),1)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
@@ -4935,7 +4849,7 @@
 			<param name="widgetContent" value="pvr://channels/tv/*" />
 			<param name="widgetAspect" value="Quadrat" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="Alle Kanäle" />
+			<param name="label" value="TV" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),2)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
@@ -4950,8 +4864,23 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=incinemamovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="WRPInfo - Derzeit im Kino" />
+			<param name="label" value="Derzeit im Kino" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),3)" />
+			<param name="genres" value="false" />
+			<param name="studios" value="false" />
+			<param name="text" value="false" />
+		</include>
+		<include content="Widget">
+			<param name="id" value="33002" />
+			<param name="target" value="videos" />
+			<param name="sortby" value="" />
+			<param name="sortorder" value="" />
+			<param name="content" value="Container(300).ListItem.Property(widgetPath)" />
+			<param name="widgetContent" value="plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
+			<param name="widgetAspect" value="" />
+			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
+			<param name="label" value="Populäre TV Serien" />
+			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),4)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
 			<param name="text" value="false" />
@@ -4962,26 +4891,11 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath)" />
-			<param name="widgetContent" value="plugin://script.wrpinfo?info=populartvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
-			<param name="widgetAspect" value="" />
-			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="WRPInfo - Populäre TV Serien" />
-			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),5)" />
-			<param name="genres" value="false" />
-			<param name="studios" value="false" />
-			<param name="text" value="false" />
-		</include>
-		<include content="Widget">
-			<param name="id" value="53002" />
-			<param name="target" value="videos" />
-			<param name="sortby" value="" />
-			<param name="sortorder" value="" />
-			<param name="content" value="Container(300).ListItem.Property(widgetPath)" />
 			<param name="widgetContent" value="plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/?reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="WRP-MetaPlayer - Familie" />
-			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),6)" />
+			<param name="label" value="Familie" />
+			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),5)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
 			<param name="text" value="false" />
@@ -4995,7 +4909,7 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=libraryallmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="WRPInfo - Meine Filme (Bibliothek)" />
+			<param name="label" value="Meine Filme (Bibliothek)" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),7)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
@@ -5025,7 +4939,7 @@
 			<param name="widgetContent" value="addons://sources/video/" />
 			<param name="widgetAspect" value="" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect)" />
-			<param name="label" value="1037" />
+			<param name="label" value="Video" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),9)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
@@ -5045,8 +4959,23 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=onairtvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
-			<param name="label" value="WRPInfo - Derzeit ausgestrahlte TV Serien" />
+			<param name="label" value="Derzeit ausgestrahlte TV Serien" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),1)" />
+			<param name="genres" value="false" />
+			<param name="studios" value="false" />
+			<param name="text" value="false" />
+		</include>
+		<include content="Widget">
+			<param name="id" value="13003" />
+			<param name="target" value="videos" />
+			<param name="sortby" value="" />
+			<param name="sortorder" value="" />
+			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget1)" />
+			<param name="widgetContent" value="plugin://plugin.video.tvone1112/list_channels/23?reload=$INFO[Window(Home).Property(widgetreload)]" />
+			<param name="widgetAspect" value="" />
+			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
+			<param name="label" value="STREAMS" />
+			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),2)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
 			<param name="text" value="false" />
@@ -5060,8 +4989,23 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=popularmovies&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
-			<param name="label" value="WRPInfo - Populäre Filme" />
+			<param name="label" value="Populäre Filme" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),3)" />
+			<param name="genres" value="false" />
+			<param name="studios" value="false" />
+			<param name="text" value="false" />
+		</include>
+		<include content="Widget">
+			<param name="id" value="33003" />
+			<param name="target" value="videos" />
+			<param name="sortby" value="" />
+			<param name="sortorder" value="" />
+			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget1)" />
+			<param name="widgetContent" value="plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
+			<param name="widgetAspect" value="Landschaft" />
+			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
+			<param name="label" value="Heute ausgestrahlte TV Serien" />
+			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),4)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
 			<param name="text" value="false" />
@@ -5072,26 +5016,11 @@
 			<param name="sortby" value="" />
 			<param name="sortorder" value="" />
 			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget1)" />
-			<param name="widgetContent" value="plugin://script.wrpinfo?info=airingtodaytvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
-			<param name="widgetAspect" value="Landschaft" />
-			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
-			<param name="label" value="WRPInfo - Heute ausgestrahlte TV Serien" />
-			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),5)" />
-			<param name="genres" value="false" />
-			<param name="studios" value="false" />
-			<param name="text" value="false" />
-		</include>
-		<include content="Widget">
-			<param name="id" value="53003" />
-			<param name="target" value="videos" />
-			<param name="sortby" value="" />
-			<param name="sortorder" value="" />
-			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget1)" />
 			<param name="widgetContent" value="plugin://plugin.video.wrp-metaplayer/movies/genre/16/1/?reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
-			<param name="label" value="WRP-MetaPlayer - Animation" />
-			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),6)" />
+			<param name="label" value="Animation" />
+			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),5)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
 			<param name="text" value="false" />
@@ -5105,7 +5034,7 @@
 			<param name="widgetContent" value="plugin://script.wrpinfo?info=libraryalltvshows&amp;limit=0&amp;reload=$INFO[Window(Home).Property(widgetreload)]" />
 			<param name="widgetAspect" value="Landschaft" />
 			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget1)" />
-			<param name="label" value="WRPInfo - Meine Fernsehsendungen (Bibliothek)" />
+			<param name="label" value="Meine Fernsehsendungen (Bibliothek)" />
 			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),7)" />
 			<param name="genres" value="false" />
 			<param name="studios" value="false" />
@@ -5128,24 +5057,7 @@
 		</include>
 	</include>
 	<include name="skinshortcuts-template-widget3004">
-		<include condition="String.IsEqual(System.ProfileName,Master user)">skinshortcuts-template-widget3004-Master user</include>
-	</include>
-	<include name="skinshortcuts-template-widget3004-Master user">
-		<include content="Widget">
-			<param name="id" value="83004" />
-			<param name="target" value="music" />
-			<param name="sortby" value="" />
-			<param name="sortorder" value="" />
-			<param name="content" value="Container(300).ListItem.Property(widgetPath.Widget2)" />
-			<param name="widgetContent" value="addons://sources/audio/" />
-			<param name="widgetAspect" value="" />
-			<param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget2)" />
-			<param name="label" value="1038" />
-			<param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),9)" />
-			<param name="genres" value="false" />
-			<param name="studios" value="false" />
-			<param name="text" value="false" />
-		</include>
+		<description>This include was built automatically as the template didn't match any menu items</description>
 	</include>
 	<include name="skinshortcuts-template-widget3005">
 		<description>This include was built automatically as the template didn't match any menu items</description>

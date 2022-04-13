@@ -46,6 +46,18 @@ def root():
 def movies():
     items = [
     {
+        'label': _("xStream"),
+        'path': 'plugin://plugin.video.xstream',
+        'thumbnail': plugin.get_media_icon('icon'),
+        'fanart': plugin.get_addon_fanart()
+    },  
+    {
+        'label': _("xShip"),
+        'path': 'plugin://plugin.video.xship',
+        'thumbnail': plugin.get_media_icon('ship'),
+        'fanart': plugin.get_addon_fanart()
+    }, 
+    {
         'label': _("Blockbuster (TMDB)"),
         'path': plugin.url_for('tmdb_movies_blockbusters', page=1),
         'thumbnail': plugin.get_media_icon('blockbusters'),
@@ -144,6 +156,18 @@ def movies():
 @plugin.route('/tv')
 def tv():
     items = [
+    {
+        'label': _("Serienstream.to"), 
+        'path': 'plugin://plugin.video.xstream/?site=serienstream_to&amp;function=load&amp;title=SerienStream&amp;params=0', 
+        'thumbnail': plugin.get_media_icon('ss'),
+        'fanart': plugin.get_addon_fanart()
+    },
+    {
+        'label': _("xStream"),
+        'path': 'plugin://plugin.video.xstream',
+        'thumbnail': plugin.get_media_icon('icon'),
+        'fanart': plugin.get_addon_fanart()
+    }, 
     {
         'label': _("Currently Airing (TMDB)"),
         'path': plugin.url_for('tmdb_tv_on_the_air', page=1),

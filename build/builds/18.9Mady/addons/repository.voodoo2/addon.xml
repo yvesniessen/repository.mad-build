@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.voodoo2" name="[COLOR=red]V[/COLOR]oo[COLOR=red]D[/COLOR]oo Repository" version="1.0.2" provider-name="[COLOR beige]Voodoo Team[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Repo Voodoo">
+		<info compressed="false">https://raw.githubusercontent.com/Voodoo19/Voodoo-/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Voodoo19/Voodoo-/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Voodoo19/Voodoo-/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR beige]Repository[/COLOR]</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+

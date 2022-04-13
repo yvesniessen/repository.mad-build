@@ -101,7 +101,7 @@
                     </animation>
                     <control type="group" id="3000">
                         <left>0</left>
-                        <top>0</top>
+                        <top>11</top>
                         <bottom>0</bottom>
                         <include>Widgets_Grouplist</include>
                         <control type="button" id="9966">

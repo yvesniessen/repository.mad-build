@@ -10,6 +10,6 @@
     <constant name="info_left">700</constant>
     <constant name="view_left">680</constant>
     <constant name="widget_poster_width">260</constant>
-    <constant name="widget_poster_height">380</constant>
+    <constant name="widget_poster_height">360</constant>
     <constant name="sidepad">80</constant>    
 </includes>

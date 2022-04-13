@@ -7,6 +7,7 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>special://skin/extras/icons/amazon.png</thumb>
 		<action>noop</action>
+		<disabled>True</disabled>
 	</shortcut>
 	<shortcut>
 		<defaultID />

@@ -1,0 +1,10 @@
+<mediasources>
+    <network>
+        <location id="0">smb://mad:1q2w3e4r@mad-synology/photo</location>
+        <location id="1">smb://mad:1q2w3e4r@mad-synology/music</location>
+        <location id="2">smb://mad:1q2w3e4r@mad-synology/video/Musik</location>
+        <location id="3">smb://mad:1q2w3e4r@mad-synology/video/Filme</location>
+        <location id="4">smb://mad:1q2w3e4r@mad-synology/video/Sonstiges</location>
+        <location id="5">smb://mad:1q2w3e4r@mad-synology/video/Serien</location>
+    </network>
+</mediasources>

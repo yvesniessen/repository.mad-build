@@ -5,31 +5,44 @@
     <video>
         <default pathversion="1"></default>
         <source>
-            <name>WRP-MetaPlayer Filme</name>
-            <path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/Movies/</path>
-            <thumbnail pathversion="1">C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.video.wrp-metaplayer\resources\media\movies.png</thumbnail>
+            <name>Musik</name>
+            <path pathversion="1">smb://mad-synology/video/Musik/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>WRP-MetaPlayer TV-Serien</name>
-            <path pathversion="1">special://profile/addon_data/plugin.video.wrp-metaplayer/TVShows/</path>
-            <thumbnail pathversion="1">C:\Users\MaD\AppData\Roaming\Kodi\addons\plugin.video.wrp-metaplayer\resources\media\tv.png</thumbnail>
+            <name>Filme</name>
+            <path pathversion="1">smb://mad-synology/video/Filme/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Sonstiges</name>
+            <path pathversion="1">smb://mad-synology/video/Sonstiges/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Serien</name>
+            <path pathversion="1">smb://mad-synology/video/Serien/</path>
             <allowsharing>true</allowsharing>
         </source>
     </video>
     <music>
         <default pathversion="1"></default>
+        <source>
+            <name>music</name>
+            <path pathversion="1">smb://mad-synology/music/</path>
+            <allowsharing>true</allowsharing>
+        </source>
     </music>
     <pictures>
         <default pathversion="1"></default>
+        <source>
+            <name>photo</name>
+            <path pathversion="1">smb://mad-synology/photo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
     </pictures>
     <files>
         <default pathversion="1"></default>
-        <source>
-            <name>Downloads</name>
-            <path pathversion="1">E:\Users\MaD\Downloads\</path>
-            <allowsharing>true</allowsharing>
-        </source>
     </files>
     <games>
         <default pathversion="1"></default>

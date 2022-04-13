@@ -21,7 +21,7 @@
     <setting id="audiooutput.guisoundmode" default="true">1</setting>
     <setting id="audiooutput.maintainoriginalvolume" default="true">true</setting>
     <setting id="audiooutput.passthrough" default="true">false</setting>
-    <setting id="audiooutput.passthroughdevice">DIRECTSOUND:{AAE784F8-E66B-42EC-A668-F21C0EFE5403}</setting>
+    <setting id="audiooutput.passthroughdevice">DIRECTSOUND:{47AA731D-2D46-4C9B-BE68-7ABE1CE6B829}</setting>
     <setting id="audiooutput.processquality" default="true">30</setting>
     <setting id="audiooutput.samplerate" default="true">48000</setting>
     <setting id="audiooutput.stereoupmix" default="true">false</setting>
@@ -307,7 +307,7 @@
     <setting id="videoscreen.ditherdepth" default="true">8</setting>
     <setting id="videoscreen.fakefullscreen" default="true">true</setting>
     <setting id="videoscreen.limitedrange" default="true">false</setting>
-    <setting id="videoscreen.monitor">PnP-Monitor (Standard) #2</setting>
+    <setting id="videoscreen.monitor">Generic PnP Monitor #1</setting>
     <setting id="videoscreen.noofbuffers" default="true">3</setting>
     <setting id="videoscreen.preferedstereoscopicmode" default="true">100</setting>
     <setting id="videoscreen.resolution">15</setting>
@@ -325,7 +325,7 @@
     </audio>
     <resolutions />
     <general>
-        <systemtotaluptime>94</systemtotaluptime>
+        <systemtotaluptime>141</systemtotaluptime>
         <settinglevel>3</settinglevel>
         <eventlog>
             <level>0</level>
