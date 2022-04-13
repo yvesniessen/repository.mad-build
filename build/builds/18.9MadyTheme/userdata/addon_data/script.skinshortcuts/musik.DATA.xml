@@ -52,4 +52,20 @@
 		<thumb>special://skin/extras/icons/youtube.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.spotitube",return)</action>
 	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Dateien</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/folder.png</thumb>
+		<action>ActivateWindow(music,sources://music/,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>517</defaultID>
+		<label>517</label>
+		<label2>item</label2>
+		<icon>special://skin/extras/icons/recent.png</icon>
+		<thumb />
+		<action>ActivateWindow(music,musicdb://recentlyplayedalbums/,return)</action>
+	</shortcut>
 </shortcuts>

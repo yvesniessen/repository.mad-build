@@ -34,6 +34,22 @@
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/tv",return)</action>
 	</shortcut>
 	<shortcut>
+		<defaultID>plugin.program.super.favourites</defaultID>
+		<label>Favoriten</label>
+		<label2>Programm</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://special://home/addons%5cplugin.program.super.favourites%5cicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Bilder</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>SlideShow(smb://mad-synology/photo/,random)</action>
+	</shortcut>
+	<shortcut>
 		<defaultID>plugin.video.KidsTube</defaultID>
 		<label>Kids</label>
 		<label2>Benutzerdefinierte Einträge</label2>
@@ -48,14 +64,6 @@
 		<icon>DefaultShortcut.png</icon>
 		<thumb>image://http%3a%2f%2fghost-repo.de%2fGhost_Portal%2fWorldofSounds%2fBilder%2ffanart.jpg/</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost.tv/?url=https%3A%2F%2Ft1p.de%2F5lhi&amp;mode=1&amp;name=%5BB%5D%5BI%5D%5BCOLOR+lightyellow%5D+World+of+Sounds+%5B%2FB%5D%5B%2FI%5D%5B%2FCOLOR%5D&amp;fanart=http%3A%2F%2Fghost-repo.de%2FGhost_Portal%2FWorldofSounds%2FBilder%2Ffanart.jpg",return)</action>
-	</shortcut>
-	<shortcut>
-		<defaultID>plugin.program.super.favourites</defaultID>
-		<label>Favoriten</label>
-		<label2>Programm</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb>image://special://home/addons%5cplugin.program.super.favourites%5cicon.png/</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.super.favourites",return)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID />

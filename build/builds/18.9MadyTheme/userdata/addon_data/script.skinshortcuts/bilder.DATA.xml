@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Dateien</label>
+		<label2>Bildquelle</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/folder.png</thumb>
+		<action>ActivateWindow(Pictures,"smb://mad-synology/photo/",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Diashow</label>
+		<label2>Bildquelle</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/actor.png</thumb>
+		<action>SlideShow(smb://mad-synology/photo/,recursive,notrandom)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Diashow - Rekursiv</label>
+		<label2>Benutzerdefinierte Einträge</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/actor.png</thumb>
+		<action>SlideShow(smb://mad-synology/photo/,recursive,notrandom)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Diashow - Zufall</label>
+		<label2>Bildquelle</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://skin/extras/icons/actor.png</thumb>
+		<action>SlideShow(smb://mad-synology/photo/,recursive,random)</action>
+	</shortcut>
+</shortcuts>

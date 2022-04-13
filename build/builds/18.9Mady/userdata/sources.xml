@@ -5,18 +5,13 @@
     <video>
         <default pathversion="1"></default>
         <source>
-            <name>Musik</name>
-            <path pathversion="1">smb://mad-synology/video/Musik/</path>
-            <allowsharing>true</allowsharing>
-        </source>
-        <source>
             <name>Filme</name>
             <path pathversion="1">smb://mad-synology/video/Filme/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
-            <name>Sonstiges</name>
-            <path pathversion="1">smb://mad-synology/video/Sonstiges/</path>
+            <name>Musik</name>
+            <path pathversion="1">smb://mad-synology/video/Musik/</path>
             <allowsharing>true</allowsharing>
         </source>
         <source>
@@ -24,11 +19,16 @@
             <path pathversion="1">smb://mad-synology/video/Serien/</path>
             <allowsharing>true</allowsharing>
         </source>
+        <source>
+            <name>Sonstiges</name>
+            <path pathversion="1">smb://mad-synology/video/Sonstiges/</path>
+            <allowsharing>true</allowsharing>
+        </source>
     </video>
     <music>
         <default pathversion="1"></default>
         <source>
-            <name>music</name>
+            <name>Musik</name>
             <path pathversion="1">smb://mad-synology/music/</path>
             <allowsharing>true</allowsharing>
         </source>
@@ -36,7 +36,7 @@
     <pictures>
         <default pathversion="1"></default>
         <source>
-            <name>photo</name>
+            <name>Bilder</name>
             <path pathversion="1">smb://mad-synology/photo/</path>
             <allowsharing>true</allowsharing>
         </source>

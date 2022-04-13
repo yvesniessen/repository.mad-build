@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
 	<shortcut>
 		<defaultID />
@@ -12,7 +13,7 @@
 		<label>Abenteuer</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/director.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/12/1/",return)</action>
 	</shortcut>
 	<shortcut>
@@ -20,7 +21,7 @@
 		<label>Action</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/skull.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/28/1/",return)</action>
 	</shortcut>
 	<shortcut>
@@ -28,7 +29,7 @@
 		<label>Familie</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/genre_kids.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/10751/1/",return)</action>
 	</shortcut>
 	<shortcut>
@@ -36,7 +37,7 @@
 		<label>Horror</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/genre_horror.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/27/1/",return)</action>
 	</shortcut>
 	<shortcut>
@@ -44,7 +45,7 @@
 		<label>Komödie</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/genre_comedy.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/35/1/",return)</action>
 	</shortcut>
 	<shortcut>
@@ -52,7 +53,7 @@
 		<label>Science Fiction</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultShortcut.png</icon>
-		<thumb>special://skin/extras/icons/genre.png</thumb>
+		<thumb>special://skin/extras/icons/antenna.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.wrp-metaplayer/movies/genre/878/1/",return)</action>
 	</shortcut>
 	<shortcut>
